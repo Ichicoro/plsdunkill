@@ -71,6 +71,11 @@ public class FirstPersonAIO : MonoBehaviour {
 
     #region Variables
 
+    #region TouchStuff
+    public JumpButton jumpButton;
+    public bool isTouchJumpPressed = false;
+    #endregion
+
     #region Input Settings
     public bool controllerPauseState = false;
     #endregion
@@ -271,6 +276,10 @@ public class FirstPersonAIO : MonoBehaviour {
     }
 
     private void Start(){
+        #region Touchstuff
+        jumpButton = GameObject.Find("JumpButton").GetComponent<JumpButton>();
+        #endregion
+
         #region Look Settings - Start
 
         if(autoCrosshair || drawStaminaMeter){
@@ -335,6 +344,8 @@ public class FirstPersonAIO : MonoBehaviour {
     }
 
     private void Update(){
+        #region Touchstuff Update
+        #endregion
 
         #region Look Settings - Update
 
@@ -363,7 +374,7 @@ public class FirstPersonAIO : MonoBehaviour {
         #endregion
 
         #region Input Settings - Update
-        if(canHoldJump ? (canJump && Input.GetButton("Jump")) : (Input.GetButtonDown("Jump") && canJump) ){
+        if(canHoldJump ? (canJump && (Input.GetButton("Jump") || jumpButton.isPressed)) : ((Input.GetButtonDown("Jump") || jumpButton.isPressed) && canJump) ){
             jumpInput = true;
         }else if(Input.GetButtonUp("Jump")){jumpInput = false;}
         
