@@ -11,6 +11,7 @@ public class JumpButton : MonoBehaviour {
     // Start is called before the first frame update
     void Start() {
         button = GetComponent<Button>();
+        Plsdunkill pdk = new Plsdunkill();
         button.onClick.AddListener(() => {
             Debug.Log("Haha! jumped :)");
         });
@@ -21,23 +22,23 @@ public class JumpButton : MonoBehaviour {
         
     }
     
-    void OnGUI() {
-        Event m_Event = Event.current;
+    // void OnGUI() {
+    //     Event m_Event = Event.current;
 
-        if (m_Event.type == EventType.MouseDown) {
-            Debug.Log("Pressed jump");
-            isPressed = true;
-        }
+    //     if (m_Event.type == EventType.MouseDown) {
+    //         Debug.Log("Pressed jump");
+    //         isPressed = true;
+    //     }
 
-        /* if (m_Event.type == EventType.MouseDrag) {
-            Debug.Log("Mouse Dragged.");
-        } */
+    //     /* if (m_Event.type == EventType.MouseDrag) {
+    //         Debug.Log("Mouse Dragged.");
+    //     } */
 
-        if (m_Event.type == EventType.MouseUp) {
-            Debug.Log("Released jump");
-            isPressed = false;
-        }
-    }
+    //     if (m_Event.type == EventType.MouseUp) {
+    //         Debug.Log("Released jump");
+    //         isPressed = false;
+    //     }
+    // }
 
     IEnumerator ResetNextFrame() {
         yield return null;

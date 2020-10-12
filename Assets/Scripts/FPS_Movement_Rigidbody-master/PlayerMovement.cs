@@ -50,6 +50,7 @@ public class PlayerMovement : MonoBehaviour {
 
     void Awake() {
         rb = GetComponent<Rigidbody>();
+        Input.simulateMouseWithTouches = false;
         inputActions = new Plsdunkill();
         inputActions.Enable();
         inputActions.Player.Crouch.performed += (InputAction.CallbackContext context) => {
