@@ -83,7 +83,7 @@ public class PlayerMovement : MonoBehaviour {
         Vector2 moveInputValues = inputActions.Player.Move.ReadValue<Vector2>();
         x = moveInputValues.x;
         y = moveInputValues.y;
-        jumping = inputActions.Player.Jump.triggered;
+        jumping = inputActions.Player.Jump.phase == InputActionPhase.Performed;
         crouching = inputActions.Player.Crouch.triggered;
       
         //Crouching
