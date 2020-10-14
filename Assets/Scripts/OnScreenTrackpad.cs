@@ -20,10 +20,9 @@ namespace UnityEngine.InputSystem.OnScreen {
 
         public void OnDrag(PointerEventData eventData) {
             RectTransformUtility.ScreenPointToLocalPointInRectangle(transform.parent.GetComponentInParent<RectTransform>(), eventData.position, eventData.pressEventCamera, out var position);
-            var delta = position - m_LastPointerDownPos;
+            Vector2 delta = position - m_LastPointerDownPos;
             Debug.Log(delta);
-            Debug.Log(delta);
-            // SendValueToControl(delta);
+            SendValueToControl(delta);
 
             RectTransformUtility.ScreenPointToLocalPointInRectangle(transform.parent.GetComponentInParent<RectTransform>(), eventData.position, eventData.pressEventCamera, out m_LastPointerDownPos);
         }

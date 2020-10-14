@@ -40,6 +40,7 @@ public class PlayerMovement : MonoBehaviour {
     public float jumpForce = 550f;
     
     //Input
+    public bool lockMouse = true;
     private Plsdunkill inputActions;
     float x, y;
     bool jumping, sprinting, crouching;
@@ -63,8 +64,10 @@ public class PlayerMovement : MonoBehaviour {
     
     void Start() {
         playerScale = transform.localScale;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (lockMouse && Application.platform != RuntimePlatform.Android && Application.platform != RuntimePlatform.IPhonePlayer) {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
 
     
@@ -84,7 +87,7 @@ public class PlayerMovement : MonoBehaviour {
         Vector2 moveInputValues = inputActions.Player.Move.ReadValue<Vector2>();
         x = moveInputValues.x;
         y = moveInputValues.y;
-        jumping = inputActions.Player.Jump.phase == InputActionPhase.Performed;
+        jumping = inputActions.Player.Jump.triggered;
         crouching = inputActions.Player.Crouch.triggered;
       
         //Crouching
