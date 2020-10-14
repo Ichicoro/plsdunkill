@@ -2,7 +2,6 @@
 
 using System;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour {
 
@@ -16,7 +15,7 @@ public class PlayerMovement : MonoBehaviour {
     //Rotation and look
     private float xRotation;
     private float sensitivity = 50f;
-    private float sensMultiplier = .5f;
+    private float sensMultiplier = 2f;
     
     //Movement
     public float moveSpeed = 4500;
@@ -41,7 +40,6 @@ public class PlayerMovement : MonoBehaviour {
     
     //Input
     public bool lockMouse = true;
-    private Plsdunkill inputActions;
     float x, y;
     bool jumping, sprinting, crouching;
     
@@ -52,14 +50,6 @@ public class PlayerMovement : MonoBehaviour {
     void Awake() {
         rb = GetComponent<Rigidbody>();
         Input.simulateMouseWithTouches = false;
-        inputActions = new Plsdunkill();
-        inputActions.Enable();
-        inputActions.Player.Crouch.performed += (InputAction.CallbackContext context) => {
-            StartCrouch();
-        };
-        inputActions.Player.Crouch.canceled += (InputAction.CallbackContext context) => {
-            StopCrouch();
-        };
     }
     
     void Start() {
@@ -84,17 +74,16 @@ public class PlayerMovement : MonoBehaviour {
     /// Find user input. Should put this in its own class but im lazy
     /// </summary>
     private void MyInput() {
-        Vector2 moveInputValues = inputActions.Player.Move.ReadValue<Vector2>();
-        x = moveInputValues.x;
-        y = moveInputValues.y;
-        jumping = inputActions.Player.Jump.triggered;
-        crouching = inputActions.Player.Crouch.triggered;
+        x = SimpleInput.GetAxisRaw("Horizontal");
+        y = SimpleInput.GetAxisRaw("Vertical");
+        jumping = SimpleInput.GetButton("Jump");
+        crouching = SimpleInput.GetButton("Crouch");
       
         //Crouching
-        /* if (inputActions.Player.Crouch.wasPressedThisFrame)
+        if (SimpleInput.GetButtonDown("Crouch"))
             StartCrouch();
-        if (inputActions.Player.Crouch.interactions)
-            StopCrouch(); */
+        if (SimpleInput.GetButtonUp("Crouch"))
+            StopCrouch();
     }
 
     private void StartCrouch() {
@@ -183,9 +172,13 @@ public class PlayerMovement : MonoBehaviour {
     
     private float desiredX;
     private void Look() {
-        Vector2 lookData = inputActions.Player.Look.ReadValue<Vector2>();
-        float mouseX = lookData.x * sensitivity * Time.fixedDeltaTime * sensMultiplier;
-        float mouseY = lookData.y * sensitivity * Time.fixedDeltaTime * sensMultiplier;
+        #if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
+        float mouseX = SimpleInput.GetAxis("Mouse X") * sensitivity * Time.fixedDeltaTime * sensMultiplier;
+        float mouseY = SimpleInput.GetAxis("Mouse Y") * sensitivity * Time.fixedDeltaTime * sensMultiplier;
+        #else
+        float mouseX = SimpleInput.GetAxis("Touch X") * sensitivity * Time.fixedDeltaTime * sensMultiplier;
+        float mouseY = SimpleInput.GetAxis("Touch Y") * sensitivity * Time.fixedDeltaTime * sensMultiplier;
+        #endif
 
         //Find current look rotation
         Vector3 rot = playerCam.transform.localRotation.eulerAngles;
@@ -282,33 +275,4 @@ public class PlayerMovement : MonoBehaviour {
     private void StopGrounded() {
         grounded = false;
     }
-
-
-    /* public void InvokeLook(InputAction.CallbackContext context)
-    {
-        var v = context.action.ReadValue<Vector2>();
-        Look(v.x, v.y);
-    }
-
-    public void InvokeToggleCrouching(InputAction.CallbackContext context)
-    {
-        crouching = context.action.triggered;
-        if (crouching) {
-            StartCrouch();
-        } else {
-            StopCrouch();
-        }
-        // Look(v.x, v.y);
-    }
-
-    public void InvokeJumping(InputAction.CallbackContext context) {
-        jumping = context.action.triggered;
-    }
-
-    public void InvokeMove(InputAction.CallbackContext context)
-    {
-        var v = context.action.ReadValue<Vector2>();
-        // Look(v.x, v.y);
-    } */
-    
 }
