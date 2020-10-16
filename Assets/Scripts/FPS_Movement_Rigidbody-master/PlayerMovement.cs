@@ -78,6 +78,9 @@ public class PlayerMovement : MonoBehaviour {
         y = SimpleInput.GetAxisRaw("Vertical");
         jumping = SimpleInput.GetButton("Jump");
         crouching = SimpleInput.GetButton("Crouch");
+        if (SimpleInput.GetKeyDown(KeyCode.Q)) {
+            DamagePlayer();
+        }
       
         //Crouching
         if (SimpleInput.GetButtonDown("Crouch"))
@@ -275,4 +278,9 @@ public class PlayerMovement : MonoBehaviour {
     private void StopGrounded() {
         grounded = false;
     }
+
+    private void DamagePlayer() {
+        gameObject.GetComponentInChildren<Animator>().Play("PlayerDamage");
+    }
+
 }
