@@ -8,6 +8,8 @@ public class PlayerCanvas : MonoBehaviour {
         Input.simulateMouseWithTouches = false;
         if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer) {
             GameObject.Find("Mobile touch Input").SetActive(true);
+        } else {
+            GameObject.Find("Mobile touch Input").SetActive(false);
         }
     }
 
