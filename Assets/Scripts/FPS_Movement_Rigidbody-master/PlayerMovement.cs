@@ -1,9 +1,10 @@
 // Some stupid rigidbody based movement by Dani
 
 using System;
+using Mirror;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : NetworkBehaviour {
 
     //Assingables
     public Transform playerCam;
@@ -54,6 +55,11 @@ public class PlayerMovement : MonoBehaviour {
     
     void Start() {
         playerScale = transform.localScale;
+        if (!base.isLocalPlayer) {
+            foreach (Camera cam in GetComponentsInChildren<Camera>()) {
+                cam.gameObject.SetActive(false);
+            }
+        }
         if (lockMouse && Application.platform != RuntimePlatform.Android && Application.platform != RuntimePlatform.IPhonePlayer) {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
@@ -62,12 +68,15 @@ public class PlayerMovement : MonoBehaviour {
 
     
     private void FixedUpdate() {
-        Movement();
+        if (base.isLocalPlayer)
+            Movement();
     }
 
     private void Update() {
-        MyInput();
-        Look();
+        if (base.isLocalPlayer) {
+            MyInput();
+            Look();
+        }
     }
 
     /// <summary>

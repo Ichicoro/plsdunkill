@@ -1,10 +1,12 @@
 using UnityEngine;
+using Mirror;
 
-public class MoveCamera : MonoBehaviour {
+public class MoveCamera : NetworkBehaviour {
 
     public Transform player;
 
     void Update() {
-        transform.position = player.transform.position;
+        if (base.hasAuthority)
+            transform.position = player.transform.position;
     }
 }
