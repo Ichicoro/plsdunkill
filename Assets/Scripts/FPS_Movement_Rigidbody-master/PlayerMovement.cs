@@ -8,6 +8,7 @@ public class PlayerMovement : NetworkBehaviour {
 
     //Assingables
     public Transform playerCam;
+    public Camera camera;
     public Transform orientation;
     
     //Other
@@ -76,6 +77,7 @@ public class PlayerMovement : NetworkBehaviour {
         if (base.isLocalPlayer) {
             MyInput();
             Look();
+            CheckCrosshair();
         }
     }
 
@@ -96,6 +98,29 @@ public class PlayerMovement : NetworkBehaviour {
             StartCrouch();
         if (SimpleInput.GetButtonUp("Crouch"))
             StopCrouch();
+    }
+
+    private void CheckCrosshair() {
+        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+        Debug.DrawRay(ray.origin, ray.direction);
+        RaycastHit[] hits = Physics.RaycastAll(ray);
+
+        foreach (RaycastHit rh in hits) {
+            if (rh.collider.tag != "Interactable") {
+                continue;
+            }
+            NetworkedButton nb = rh.collider.gameObject.GetComponent<NetworkedButton>();
+            if (nb != null && SimpleInput.GetButtonDown("Use")) {
+                nb.CmdExecuteAction();
+            }
+        }
+        
+        /* if () {
+            Transform objectHit = hit.transform;
+            Debug.DrawRay(ray.origin, ray.direction);
+            Debug.Log("hit!");
+            // Do something with the object that was hit by the raycast.
+        } */
     }
 
     private void StartCrouch() {

@@ -1361,6 +1361,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   playerCam: {fileID: 6924840694947688167}
+  camera: {fileID: 6924840695649216938}
   orientation: {fileID: 6924840694803657252}
   moveSpeed: 1000
   maxSpeed: 6
