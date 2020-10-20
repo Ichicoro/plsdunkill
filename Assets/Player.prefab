@@ -426,7 +426,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3a6ce66cc596d1a458420ecf4eb2a670, type: 2}
+  - {fileID: 2100000, guid: ecf1be684662e7f49988297fc06bd279, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -876,7 +876,7 @@ GameObject:
   - component: {fileID: 6924840694947688160}
   m_Layer: 9
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -942,11 +942,11 @@ GameObject:
   - component: {fileID: 6924840695063874901}
   m_Layer: 9
   m_Name: MinimapCamera
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6924840695063874905
 Transform:
   m_ObjectHideFlags: 0

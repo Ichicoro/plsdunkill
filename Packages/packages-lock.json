@@ -150,6 +150,13 @@
       "dependencies": {},
       "hash": "2cf20317b12f90e3ce722bd1a571a58a2fa7455a"
     },
+    "demonixis.rendererfeatures.ssgi-urp": {
+      "version": "https://github.com/demonixis/SSGI-URP.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "31421d1f332422006b3cf8d9ce3eb8bd23994513"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
