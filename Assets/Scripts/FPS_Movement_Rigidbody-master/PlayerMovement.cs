@@ -10,6 +10,10 @@ public class PlayerMovement : NetworkBehaviour {
     public Transform playerCam;
     public Camera camera;
     public Transform orientation;
+
+    //Using
+    public GameObject useButton;
+    [Range(0.01f, 150f)] public float maxUseDistance = 5;
     
     //Other
     private Rigidbody rb;
@@ -105,22 +109,24 @@ public class PlayerMovement : NetworkBehaviour {
         Debug.DrawRay(ray.origin, ray.direction);
         RaycastHit[] hits = Physics.RaycastAll(ray);
 
+        if (useButton) {
+            useButton.active = false;
+        }
+
         foreach (RaycastHit rh in hits) {
-            if (rh.collider.tag != "Interactable") {
+            if (rh.collider.tag != "Interactable" || rh.distance > maxUseDistance) {
                 continue;
             }
+            
+            if (useButton) {
+                useButton.active = true;
+            }
+
             NetworkedButton nb = rh.collider.gameObject.GetComponent<NetworkedButton>();
             if (nb != null && SimpleInput.GetButtonDown("Use")) {
                 nb.CmdExecuteAction();
             }
         }
-        
-        /* if () {
-            Transform objectHit = hit.transform;
-            Debug.DrawRay(ray.origin, ray.direction);
-            Debug.Log("hit!");
-            // Do something with the object that was hit by the raycast.
-        } */
     }
 
     private void StartCrouch() {
