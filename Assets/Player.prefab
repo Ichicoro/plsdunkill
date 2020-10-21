@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1096767319670125928}
   - component: {fileID: 182920827721958705}
   - component: {fileID: 5012643745573587842}
-  - component: {fileID: 8959583696412233104}
+  - component: {fileID: 6251678073981134426}
   m_Layer: 5
   m_Name: UseButton
   m_TagString: Untagged
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd2b1b62768d1834a9c1821a5c04c594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8959583696412233104
+--- !u!114 &6251678073981134426
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,23 +143,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2839492764657500489}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd94a8cb4ee2c42668d1157d53554889, type: 3}
+  m_Script: {fileID: 11500000, guid: 995f34434fbe45d46aacf4e120446279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allowTouchInput: 1
-  allowedMouseButtons: 000000000100000002000000
-  xAxis:
-    m_key: Touch X
-    value: 0
-  yAxis:
-    m_key: Touch Y
-    value: 0
   button:
     m_key: Use
     value: 0
-  invertHorizontal: 0
-  invertVertical: 0
-  sensitivity: 1.75
 --- !u!1 &3330749925017280118
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,11 +1225,11 @@ GameObject:
   - component: {fileID: 6924840695063874901}
   m_Layer: 9
   m_Name: MinimapCamera
-  m_TagString: EditorOnly
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6924840695063874905
 Transform:
   m_ObjectHideFlags: 0
