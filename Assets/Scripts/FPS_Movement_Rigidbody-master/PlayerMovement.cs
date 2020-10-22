@@ -28,6 +28,7 @@ public class PlayerMovement : NetworkBehaviour {
     public float maxSpeed = 20;
     public bool grounded;
     public LayerMask whatIsGround;
+    private LayerMask raycastMask;
     
     public float counterMovement = 0.175f;
     private float threshold = 0.01f;
@@ -56,6 +57,7 @@ public class PlayerMovement : NetworkBehaviour {
     void Awake() {
         rb = GetComponent<Rigidbody>();
         Input.simulateMouseWithTouches = false;
+        raycastMask = ~(1 << LayerMask.NameToLayer("Player"));
     }
     
     void Start() {
@@ -107,13 +109,28 @@ public class PlayerMovement : NetworkBehaviour {
     private void CheckCrosshair() {
         Ray ray = camera.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(ray.origin, ray.direction);
-        RaycastHit[] hits = Physics.RaycastAll(ray);
+        // RaycastHit[] hits = Physics.RaycastAll(ray);
+        
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, maxUseDistance, raycastMask)) {
+            if (hit.collider.tag != "Interactable") {
+                if (useButton) {
+                    useButton.active = false;
+                }
+                return;
+            }
 
-        if (useButton) {
-            useButton.active = false;
+            if (useButton) {
+                useButton.active = true;
+            }
+
+            NetworkedButton nb = hit.collider.gameObject.GetComponent<NetworkedButton>();
+            if (nb != null && SimpleInput.GetButtonDown("Use")) {
+                nb.CmdExecuteAction();
+            }
         }
 
-        foreach (RaycastHit rh in hits) {
+        /* foreach (RaycastHit rh in hits) {
             if (rh.collider.tag != "Interactable" || rh.distance > maxUseDistance) {
                 continue;
             }
@@ -126,7 +143,7 @@ public class PlayerMovement : NetworkBehaviour {
             if (nb != null && SimpleInput.GetButtonDown("Use")) {
                 nb.CmdExecuteAction();
             }
-        }
+        } */
     }
 
     private void StartCrouch() {
