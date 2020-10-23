@@ -7,6 +7,7 @@ public class NetworkedButton: NetworkBehaviour {
     [SyncVar]
     public bool enabled = false;
     public GameObject light;
+    public ParticleSystem particleSystem;
 
     void Start() {
         gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
@@ -19,6 +20,9 @@ public class NetworkedButton: NetworkBehaviour {
 
     [ClientRpc]
     void RpcCalledOnClick() {
+        if (particleSystem) {
+            particleSystem.Play();
+        }
         if (enabled) {
             enabled = false;
             gameObject.GetComponent<MeshRenderer>().material.color = Color.red;

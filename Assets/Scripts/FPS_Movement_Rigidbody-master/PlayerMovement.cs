@@ -14,6 +14,8 @@ public class PlayerMovement : NetworkBehaviour {
     //Using
     public GameObject useButton;
     [Range(0.01f, 150f)] public float maxUseDistance = 5;
+    public GameObject usableGameObject;
+    public Texture useOverlayTexture;
     
     //Other
     private Rigidbody rb;
@@ -112,13 +114,16 @@ public class PlayerMovement : NetworkBehaviour {
         // RaycastHit[] hits = Physics.RaycastAll(ray);
         
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, maxUseDistance, raycastMask)) {
+        if (Physics.SphereCast(ray, 0.2f, out hit, maxUseDistance, raycastMask)) {
             if (hit.collider.tag != "Interactable") {
                 if (useButton) {
                     useButton.active = false;
                 }
+                usableGameObject = null;
                 return;
             }
+
+            usableGameObject = hit.collider.gameObject;
 
             if (useButton) {
                 useButton.active = true;
@@ -128,22 +133,12 @@ public class PlayerMovement : NetworkBehaviour {
             if (nb != null && SimpleInput.GetButtonDown("Use")) {
                 nb.CmdExecuteAction();
             }
-        }
-
-        /* foreach (RaycastHit rh in hits) {
-            if (rh.collider.tag != "Interactable" || rh.distance > maxUseDistance) {
-                continue;
-            }
-            
+        } else {
+            usableGameObject = null;
             if (useButton) {
-                useButton.active = true;
+                useButton.active = false;
             }
-
-            NetworkedButton nb = rh.collider.gameObject.GetComponent<NetworkedButton>();
-            if (nb != null && SimpleInput.GetButtonDown("Use")) {
-                nb.CmdExecuteAction();
-            }
-        } */
+        }
     }
 
     private void StartCrouch() {
@@ -338,6 +333,30 @@ public class PlayerMovement : NetworkBehaviour {
 
     private void DamagePlayer() {
         gameObject.GetComponentInChildren<Animator>().Play("PlayerDamage");
+    }
+
+    public Vector2 WorldToGuiPoint(Vector3 GOposition)
+    {
+        var guiPosition = Camera.main.WorldToScreenPoint(GOposition);
+        // Y axis coordinate in screen is reversed relative to world Y coordinate
+        guiPosition.y = Screen.height - guiPosition.y;
+
+        return guiPosition;
+    }
+
+    public static float Map (float value, float from1, float to1, float from2, float to2) {
+        return (value - from1) / (to1 - from1) * (to2 - from2) + from2;
+    }
+
+    void OnGUI() {
+        if (usableGameObject != null) {
+            var dist = Vector3.Distance(this.transform.position, usableGameObject.transform.position);
+            var size = Map(maxUseDistance - dist, 0, maxUseDistance, 35, 70);
+            GUI.Label(new Rect(new Vector2(300, 300), new Vector2(100, 100)), ""+size);
+            var guiPosition = WorldToGuiPoint(usableGameObject.transform.position);
+            var rect = new Rect(guiPosition - new Vector2(size, size), new Vector2(size*2, size*2));
+            GUI.DrawTexture(rect, useOverlayTexture, ScaleMode.ScaleToFit, true, 1, new Color(1, 1, 1, 0.5f), 0, 0);
+        }
     }
 
 }

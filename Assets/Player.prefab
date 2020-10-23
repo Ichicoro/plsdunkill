@@ -1668,6 +1668,8 @@ MonoBehaviour:
   orientation: {fileID: 6924840694803657252}
   useButton: {fileID: 2839492764657500489}
   maxUseDistance: 5
+  usableGameObject: {fileID: 0}
+  useOverlayTexture: {fileID: 2800000, guid: c04626ae740a6be48b422b6e2d63136b, type: 3}
   moveSpeed: 1000
   maxSpeed: 6
   grounded: 0
