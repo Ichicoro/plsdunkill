@@ -198,8 +198,8 @@ public class PlayerMovement : NetworkBehaviour {
         if (grounded && crouching) multiplierV = 0f;
 
         //Apply forces to move player
-        rb.AddForce(orientation.transform.forward * y * moveSpeed * Time.deltaTime * multiplier * multiplierV);
-        rb.AddForce(orientation.transform.right * x * moveSpeed * Time.deltaTime * multiplier);
+        rb.AddForce(orientation.transform.forward * y * moveSpeed * Time.deltaTime * multiplier * multiplierV, ForceMode.Acceleration);
+        rb.AddForce(orientation.transform.right * x * moveSpeed * Time.deltaTime * multiplier, ForceMode.Acceleration);
     }
 
     private void Jump() {
@@ -249,7 +249,11 @@ public class PlayerMovement : NetworkBehaviour {
     }
 
     private void CounterMovement(float x, float y, Vector2 mag) {
-        if (!grounded || jumping) return;
+        if (!grounded || jumping) {
+            rb.useGravity = true;
+            rb.drag = 0;
+            return;
+        };
 
         //Slow down sliding
         if (crouching) {
@@ -263,6 +267,21 @@ public class PlayerMovement : NetworkBehaviour {
         }
         if (Math.Abs(mag.y) > threshold && Math.Abs(y) < 0.05f || (mag.y < -threshold && y > 0) || (mag.y > threshold && y < 0)) {
             rb.AddForce(moveSpeed * orientation.transform.forward * Time.deltaTime * -mag.y * counterMovement);
+        }
+
+        if (Math.Abs(mag.x) < 0.05f && x == 0 && Math.Abs(mag.y) < 0.05f && y == 0) {
+            rb.velocity = new Vector3(0, 0, 0);
+        }
+
+        rb.useGravity = true;
+        rb.drag = 0;
+        if (normalVector != Vector3.up) {
+            if (Math.Abs(mag.x) < 2.5f && x == 0 && Math.Abs(mag.y) < 2.5f && y == 0) {
+                rb.AddForce(-rb.velocity);
+                rb.drag = 20;
+                rb.velocity = new Vector3(0, -rb.velocity.y, 0);
+                rb.useGravity = false;
+            }
         }
         
         //Limit diagonal running. This will also cause a full stop if sliding fast and un-crouching, so not optimal.
@@ -349,10 +368,16 @@ public class PlayerMovement : NetworkBehaviour {
     }
 
     void OnGUI() {
+        if (!base.isLocalPlayer) return;
+
+        var style = new GUIStyle();
+        style.fontSize = 24;
+        GUI.color = Color.white;
+        GUI.Label(new Rect(new Vector2(300, 300), new Vector2(200, 100)), "Velocity: "+rb.velocity, style);
+        GUI.Label(new Rect(new Vector2(300, 330), new Vector2(200, 100)), "Player input: "+(x,y), style);
         if (usableGameObject != null) {
             var dist = Vector3.Distance(this.transform.position, usableGameObject.transform.position);
             var size = Map(maxUseDistance - dist, 0, maxUseDistance, 35, 70);
-            GUI.Label(new Rect(new Vector2(300, 300), new Vector2(100, 100)), ""+size);
             var guiPosition = WorldToGuiPoint(usableGameObject.transform.position);
             var rect = new Rect(guiPosition - new Vector2(size, size), new Vector2(size*2, size*2));
             GUI.DrawTexture(rect, useOverlayTexture, ScaleMode.ScaleToFit, true, 1, new Color(1, 1, 1, 0.5f), 0, 0);
