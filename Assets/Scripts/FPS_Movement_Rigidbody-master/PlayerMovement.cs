@@ -277,8 +277,8 @@ public class PlayerMovement : NetworkBehaviour {
         rb.drag = 0;
         if (normalVector != Vector3.up) {
             if (Math.Abs(mag.x) < 2.5f && x == 0 && Math.Abs(mag.y) < 2.5f && y == 0) {
-                rb.AddForce(-rb.velocity);
-                rb.drag = 20;
+                // rb.velocity = Vector3.down * Time.deltaTime * 9.8f;
+                rb.drag = 5;
                 rb.velocity = new Vector3(0, -rb.velocity.y, 0);
                 rb.useGravity = false;
             }
