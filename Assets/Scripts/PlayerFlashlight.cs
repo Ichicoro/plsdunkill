@@ -18,9 +18,10 @@ public class PlayerFlashlight : NetworkBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (base.isLocalPlayer) {
+        if (isLocalPlayer) {
             if (SimpleInput.GetButtonDown("Flashlight")) {
                 CmdSwitchFlashlight();
+                lightGameObject.enabled = !lightGameObject.enabled;
             }
         }
     }
@@ -31,6 +32,8 @@ public class PlayerFlashlight : NetworkBehaviour {
     }
 
     public void SetFlashlightEnabled(bool oldValue, bool newValue) {
-        lightGameObject.enabled = newValue;
+        if (!isLocalPlayer) {
+            lightGameObject.enabled = newValue;
+        }
     }
 }

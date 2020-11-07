@@ -371,10 +371,11 @@ public class PlayerMovement : NetworkBehaviour {
         if (!base.isLocalPlayer) return;
 
         var style = new GUIStyle();
-        style.fontSize = 24;
+        style.fontSize = 18;
         GUI.color = Color.white;
+        GUI.contentColor = Color.white;
         GUI.Label(new Rect(new Vector2(300, 300), new Vector2(200, 100)), "Velocity: "+rb.velocity, style);
-        GUI.Label(new Rect(new Vector2(300, 330), new Vector2(200, 100)), "Player input: "+(x,y), style);
+        GUI.Label(new Rect(new Vector2(300, 330), new Vector2(200, 100)), "Velocity: "+rb.velocity.magnitude, style);
         if (usableGameObject != null) {
             var dist = Vector3.Distance(this.transform.position, usableGameObject.transform.position);
             var size = Map(maxUseDistance - dist, 0, maxUseDistance, 35, 70);
