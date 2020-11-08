@@ -64,15 +64,25 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.render-pipelines.universal": {
+    "com.unity.render-pipelines.high-definition": {
       "version": "8.2.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.render-pipelines.core": "8.2.0",
-        "com.unity.shadergraph": "8.2.0"
+        "com.unity.shadergraph": "8.2.0",
+        "com.unity.visualeffectgraph": "8.2.0",
+        "com.unity.render-pipelines.high-definition-config": "8.2.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.render-pipelines.high-definition-config": {
+      "version": "file:../LocalPackages/com.unity.render-pipelines.high-definition-config",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "8.2.0"
+      }
     },
     "com.unity.searcher": {
       "version": "4.0.9",
@@ -149,13 +159,6 @@
       "source": "git",
       "dependencies": {},
       "hash": "2cf20317b12f90e3ce722bd1a571a58a2fa7455a"
-    },
-    "demonixis.rendererfeatures.ssgi-urp": {
-      "version": "https://github.com/demonixis/SSGI-URP.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "31421d1f332422006b3cf8d9ce3eb8bd23994513"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

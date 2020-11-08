@@ -5,6 +5,8 @@ using Mirror;
 
 public class PlayerFlashlight : NetworkBehaviour {
     public Light lightGameObject;
+    public Camera camera;
+    public Vector3 last;
 
     [SyncVar(hook=nameof(SetFlashlightEnabled))]
     public bool lightEnabled = false;
@@ -14,6 +16,8 @@ public class PlayerFlashlight : NetworkBehaviour {
     // Start is called before the first frame update
     void Start() {
         lightGameObject.enabled = lightEnabled;
+        camera = GetComponentInChildren<Camera>();
+        last = camera.transform.eulerAngles;
     }
 
     // Update is called once per frame
@@ -23,6 +27,8 @@ public class PlayerFlashlight : NetworkBehaviour {
                 CmdSwitchFlashlight();
                 lightGameObject.enabled = !lightGameObject.enabled;
             }
+            lightGameObject.transform.eulerAngles = Vector3.Lerp(camera.transform.eulerAngles, last, GetMouseMag()*5f);
+            last = camera.transform.eulerAngles;
         }
     }
 
@@ -35,5 +41,12 @@ public class PlayerFlashlight : NetworkBehaviour {
         if (!isLocalPlayer) {
             lightGameObject.enabled = newValue;
         }
+    }
+
+    private float GetMouseMag() {
+        return (new Vector2(
+            SimpleInput.GetAxis("Mouse X"),
+            SimpleInput.GetAxis("Mouse Y")
+        )).magnitude;
     }
 }
