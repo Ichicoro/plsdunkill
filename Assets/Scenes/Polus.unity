@@ -409,8 +409,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.15496346
-  m_Range: 21.887712
+  m_Intensity: 0.11459156
+  m_Range: 23.771006
   m_SpotAngle: 90
   m_InnerSpotAngle: 55.996994
   m_CookieSize: 10
@@ -448,13 +448,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
-  m_BounceIntensity: 4
+  m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.5e-44, z: 1.2757e-41, w: 1.04e-43}
+  m_BoundingSphereOverride: {x: 0, y: 2.3509887e-38, z: 2.7107536e-20, w: 7.737127e+25}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -492,13 +492,13 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 0.31
+  m_Intensity: 1.44
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
   m_LightDimmer: 1
-  m_VolumetricDimmer: 16
-  m_LightUnit: 4
+  m_VolumetricDimmer: 6.21
+  m_LightUnit: 0
   m_FadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
@@ -682,6 +682,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7203296020796546132, guid: 9567fd69c230a6f41b2da060045b3187, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f364e23316b10c840a703719124bb4d0, type: 2}
     - target: {fileID: -2509730119719524873, guid: 9567fd69c230a6f41b2da060045b3187, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -6348,6 +6352,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7203296020796546132, guid: 9567fd69c230a6f41b2da060045b3187, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f364e23316b10c840a703719124bb4d0, type: 2}
     - target: {fileID: -2509730119719524873, guid: 9567fd69c230a6f41b2da060045b3187, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -6433,9 +6441,108 @@ MonoBehaviour:
   m_GameObject: {fileID: 434776252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Version: 11
+  m_ObsoleteShadowResolutionTier: 1
+  m_ObsoleteUseShadowQualitySettings: 0
+  m_ObsoleteCustomShadowResolution: 512
+  m_ObsoleteContactShadows: 0
+  m_PointlightHDType: 0
+  m_SpotLightShape: 0
+  m_AreaLightShape: 0
+  m_Intensity: 600
+  m_EnableSpotReflector: 0
+  m_LuxAtDistance: 1
+  m_InnerSpotPercent: 0
+  m_LightDimmer: 1
+  m_VolumetricDimmer: 1
+  m_LightUnit: 0
+  m_FadeDistance: 10000
+  m_AffectDiffuse: 1
+  m_AffectSpecular: 1
+  m_NonLightmappedOnly: 0
+  m_ShapeWidth: 0.5
+  m_ShapeHeight: 0.5
+  m_AspectRatio: 1
+  m_ShapeRadius: 0.025
+  m_SoftnessScale: 1
+  m_UseCustomSpotLightShadowCone: 0
+  m_CustomSpotLightShadowCone: 30
+  m_MaxSmoothness: 0.99
+  m_ApplyRangeAttenuation: 1
+  m_DisplayAreaLightEmissiveMesh: 0
+  m_AreaLightCookie: {fileID: 0}
+  m_AreaLightShadowCone: 120
+  m_UseScreenSpaceShadows: 0
+  m_InteractsWithSky: 1
+  m_AngularDiameter: 0.5
+  m_FlareSize: 2
+  m_FlareTint: {r: 1, g: 1, b: 1, a: 1}
+  m_FlareFalloff: 4
+  m_SurfaceTexture: {fileID: 0}
+  m_SurfaceTint: {r: 1, g: 1, b: 1, a: 1}
+  m_Distance: 1.5e+11
+  m_UseRayTracedShadows: 0
+  m_NumRayTracingSamples: 4
+  m_FilterTracedShadow: 1
+  m_FilterSizeTraced: 16
+  m_SunLightConeAngle: 0.5
+  m_LightShadowRadius: 0.5
+  m_SemiTransparentShadow: 0
+  m_ColorShadow: 1
+  m_EvsmExponent: 15
+  m_EvsmLightLeakBias: 0
+  m_EvsmVarianceBias: 0.00001
+  m_EvsmBlurPasses: 0
+  m_LightlayersMask: 1
+  m_LinkShadowLayers: 1
+  m_ShadowNearPlane: 0.1
+  m_BlockerSampleCount: 24
+  m_FilterSampleCount: 16
+  m_MinFilterSize: 0.1
+  m_KernelSize: 5
+  m_LightAngle: 1
+  m_MaxDepthBias: 0.001
+  m_ShadowResolution:
+    m_Override: 512
+    m_UseOverride: 1
+    m_Level: 0
+  m_ShadowDimmer: 1
+  m_VolumetricShadowDimmer: 1
+  m_ShadowFadeDistance: 10000
+  m_UseContactShadow:
+    m_Override: 0
+    m_UseOverride: 1
+    m_Level: 0
+  m_RayTracedContactShadow: 0
+  m_ShadowTint: {r: 0, g: 0, b: 0, a: 1}
+  m_PenumbraTint: 0
+  m_NormalBias: 0.75
+  m_SlopeBias: 0.5
+  m_ShadowUpdateMode: 0
+  m_BarnDoorAngle: 90
+  m_BarnDoorLength: 0.05
+  m_ShadowCascadeRatios:
+  - 0.05
+  - 0.2
+  - 0.3
+  m_ShadowCascadeBorders:
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  m_ShadowAlgorithm: 0
+  m_ShadowVariant: 0
+  m_ShadowPrecision: 0
+  useOldInspector: 0
+  useVolumetric: 1
+  featuresFoldout: 1
+  showAdditionalSettings: 0
+  m_AreaLightEmissiveMeshShadowCastingMode: 0
+  m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
+  m_AreaLightEmissiveMeshLayer: -1
 --- !u!108 &434776254
 Light:
   m_ObjectHideFlags: 0
@@ -6448,7 +6555,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 7.49
+  m_Intensity: 47.746483
   m_Range: 11.626993
   m_SpotAngle: 152.56961
   m_InnerSpotAngle: 79.96292
@@ -6488,12 +6595,12 @@ Light:
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
   m_Lightmapping: 1
-  m_LightShadowCasterMode: 0
+  m_LightShadowCasterMode: 2
   m_AreaSize: {x: 5.190439, y: 1.4020491}
   m_BounceIntensity: 5
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 2.1e-44}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -7606,7 +7713,6 @@ GameObject:
   m_Component:
   - component: {fileID: 896772088}
   - component: {fileID: 896772087}
-  - component: {fileID: 896772089}
   - component: {fileID: 896772090}
   m_Layer: 0
   m_Name: Point Light (2)
@@ -7658,7 +7764,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
+  m_Cookie: {fileID: 2800000, guid: 4c9cda89ee092a94f92ea71e0bb75ac9, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
@@ -7669,10 +7775,10 @@ Light:
   m_Lightmapping: 1
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
-  m_BounceIntensity: 5
+  m_BounceIntensity: 3
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.36e-43, y: 1.16e-43, z: 0, w: -2.7117306e+10}
+  m_BoundingSphereOverride: {x: 8.49e-43, y: 1.551e-42, z: 0, w: 41.634552}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -7684,24 +7790,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896772086}
   m_LocalRotation: {x: -0, y: 0.99424756, z: -0.10710682, w: 0}
-  m_LocalPosition: {x: -6.3, y: 1.74, z: 0.31}
+  m_LocalPosition: {x: -6.3, y: 1.74, z: -0.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 12.297, y: 180, z: 0}
---- !u!114 &896772089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896772086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &896772090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7727,7 +7821,7 @@ MonoBehaviour:
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
   m_LightDimmer: 1
-  m_VolumetricDimmer: 0.4
+  m_VolumetricDimmer: 1.47
   m_LightUnit: 4
   m_FadeDistance: 10000
   m_AffectDiffuse: 1
@@ -8525,13 +8619,29 @@ GameObject:
   - component: {fileID: 1008123202}
   - component: {fileID: 1008123201}
   - component: {fileID: 1008123203}
+  - component: {fileID: 1008123204}
+  - component: {fileID: 1008123200}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
+--- !u!114 &1008123200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008123199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ced51cdcfc83c4f84e03a7b4cac0e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
 --- !u!20 &1008123201
 Camera:
   m_ObjectHideFlags: 0
@@ -8694,6 +8804,22 @@ MonoBehaviour:
       data1: 0
       data2: 0
   defaultFrameSettings: 0
+--- !u!114 &1008123204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008123199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 3123211003
+  serverOnly: 1
+  m_AssetId: 
+  hasSpawned: 0
 --- !u!1 &1021109875
 GameObject:
   m_ObjectHideFlags: 0
@@ -16128,107 +16254,6 @@ MonoBehaviour:
   serverOnly: 0
   m_AssetId: 
   hasSpawned: 0
---- !u!1 &1227232821 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9567fd69c230a6f41b2da060045b3187, type: 3}
-  m_PrefabInstance: {fileID: 422929996}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1227232823
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1227232821}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8df513cc11eaed74796ab31fa480c8b5, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!43 &1237083999
 Mesh:
   m_ObjectHideFlags: 0
@@ -16465,10 +16490,10 @@ Light:
   m_Lightmapping: 1
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
-  m_BounceIntensity: 3
+  m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.0554e-41, z: 0, w: -2.7111981e+10}
+  m_BoundingSphereOverride: {x: 0, y: 79.80664, z: 8.49e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -17885,7 +17910,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1611957717}
   - component: {fileID: 1611957716}
-  - component: {fileID: 1611957715}
   - component: {fileID: 1611957718}
   m_Layer: 0
   m_Name: Spot Light
@@ -17894,18 +17918,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1611957715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1611957714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1611957716
 Light:
   m_ObjectHideFlags: 0
@@ -20174,7 +20186,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 4.3401e-41, z: 0, w: 4.5358123e+30}
+  m_BoundingSphereOverride: {x: 0, y: 2.8682e-41, z: 0, w: 31.25}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -20478,6 +20490,7 @@ GameObject:
   - component: {fileID: 1936625155}
   - component: {fileID: 1936625154}
   - component: {fileID: 1936625156}
+  - component: {fileID: 1936625157}
   m_Layer: 0
   m_Name: Point Light (4)
   m_TagString: Untagged
@@ -20542,7 +20555,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 3.1199e-41, z: 0, w: -8.632884e+11}
+  m_BoundingSphereOverride: {x: 8.49e-43, y: 124.20026, z: 8.49e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -20671,6 +20684,54 @@ MonoBehaviour:
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
   m_AreaLightEmissiveMeshLayer: -1
+--- !u!114 &1936625157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936625153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb2d71da7ccfef4baab37bc64e1a1db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  fps: 60
+  textures:
+  - {fileID: 2800000, guid: 4ad821a0a7108de469e4e14f187d5ab7, type: 3}
+  - {fileID: 2800000, guid: 4502dc4a8574d924b9b3d0aa6dffce6d, type: 3}
+  - {fileID: 2800000, guid: f1567a91854e7414489819f354e92685, type: 3}
+  - {fileID: 2800000, guid: cd184578a8da2f84c817f2bab390624a, type: 3}
+  - {fileID: 2800000, guid: 3248a731b9dd6534bb58d060a32298ba, type: 3}
+  - {fileID: 2800000, guid: 4f26db9297cc9134eae72132e0480dcd, type: 3}
+  - {fileID: 2800000, guid: 390f29cf47cda7449b396444a64c36a0, type: 3}
+  - {fileID: 2800000, guid: 1bdbca9044bba344e902338abde07d1c, type: 3}
+  - {fileID: 2800000, guid: 6513b2d713812424e9b849352b66e681, type: 3}
+  - {fileID: 2800000, guid: 4be2a71d85ff92f4fa5d0dbe4dc2104c, type: 3}
+  - {fileID: 2800000, guid: b1b709ba3e7dc73448ac1c97a787cc01, type: 3}
+  - {fileID: 2800000, guid: 96f6492052af4874a9b52dfe6bcc2952, type: 3}
+  - {fileID: 2800000, guid: 3875add747a630a4a845ccb5b703268b, type: 3}
+  - {fileID: 2800000, guid: 7d4fdf8c43cdfd949af479b7f752408d, type: 3}
+  - {fileID: 2800000, guid: be5ec1b7e19b8f14eb0b93138d226e35, type: 3}
+  - {fileID: 2800000, guid: 295f3c544e2266849ab1510477c7fed1, type: 3}
+  - {fileID: 2800000, guid: b00913baee7d85e4d8c1e27ee0cee2ef, type: 3}
+  - {fileID: 2800000, guid: 942972efdb6fc534b8179b2cb7e88f02, type: 3}
+  - {fileID: 2800000, guid: 8da56ded94f2ed348bd482fa3d71346d, type: 3}
+  - {fileID: 2800000, guid: dc85fabadd8f98c49bb2eb03c42eaa4b, type: 3}
+  - {fileID: 2800000, guid: baba50a20bcf43044b9f9734c741076c, type: 3}
+  - {fileID: 2800000, guid: 1bde510ffd40b14418a4c74c5428c504, type: 3}
+  - {fileID: 2800000, guid: df9e82c4862f94c41a211c2f75ea55a7, type: 3}
+  - {fileID: 2800000, guid: 969add7a83a7b09438528ace1c3ea30a, type: 3}
+  - {fileID: 2800000, guid: 1f43e1da30fcaeb46965897703a46587, type: 3}
+  - {fileID: 2800000, guid: 57caf7f6513e0e24e9ac585319931134, type: 3}
+  - {fileID: 2800000, guid: 3bfe49a3726d0dd4ab411d779976e8cf, type: 3}
+  - {fileID: 2800000, guid: 3676423f21114ee41b0cdf67fba96001, type: 3}
+  - {fileID: 2800000, guid: 8373ab222260e0843b8622d051b8aafe, type: 3}
+  - {fileID: 2800000, guid: 4f82cd66d048aaf40a84da4be973170a, type: 3}
+  - {fileID: 2800000, guid: 5119b8b2d6bed2d46afa551acd53ab3e, type: 3}
+  - {fileID: 2800000, guid: 5fe225f80ea331c47a0ac07d32ba8847, type: 3}
+  idx: 0
 --- !u!43 &1936977594
 Mesh:
   m_ObjectHideFlags: 0
@@ -21350,7 +21411,7 @@ LightingSettings:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   serializedVersion: 2
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
   m_RealtimeEnvironmentLighting: 1
@@ -21362,7 +21423,7 @@ LightingSettings:
   m_LightmapMaxSize: 512
   m_BakeResolution: 20
   m_Padding: 2
-  m_TextureCompression: 1
+  m_TextureCompression: 0
   m_AO: 1
   m_AOMaxDistance: 1
   m_CompAOExponent: 1

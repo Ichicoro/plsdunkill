@@ -27,7 +27,7 @@ public class PlayerFlashlight : NetworkBehaviour {
                 CmdSwitchFlashlight();
                 lightGameObject.enabled = !lightGameObject.enabled;
             }
-            lightGameObject.transform.eulerAngles = Vector3.Lerp(camera.transform.eulerAngles, last, GetMouseMag()*5f);
+            lightGameObject.transform.eulerAngles = Vector3.Lerp(camera.transform.eulerAngles, last, GetMouseMag()*Time.deltaTime);
             last = camera.transform.eulerAngles;
         }
     }
