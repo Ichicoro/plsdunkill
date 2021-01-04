@@ -15,7 +15,7 @@ public class CausticsTest : MonoBehaviour {
         if (!enabled) return; 
         light = GetComponent<Light>();
         NextFrame();
-        InvokeRepeating(nameof(NextFrame), 1/((float) fps), 1/((float) fps));
+        InvokeRepeating(nameof(NextFrame), 1/(float) fps, 1/(float) fps);
     }
 
     // // Update is called once per frame

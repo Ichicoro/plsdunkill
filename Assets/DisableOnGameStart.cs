@@ -12,6 +12,7 @@ public class DisableOnGameStart : NetworkBehaviour {
     // Start is called before the first frame update
     void Start() {
         Debug.Log("started");
+        gameObject.SetActive(false);
     }
 
     // Update is called once per frame

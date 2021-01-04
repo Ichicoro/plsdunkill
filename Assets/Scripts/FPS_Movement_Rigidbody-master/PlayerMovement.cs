@@ -7,7 +7,7 @@ using UnityEngine;
 public class PlayerMovement : NetworkBehaviour {
 
     //Assingables
-    public Transform playerCam;
+    public GameObject playerCam;
     public Camera camera;
     public Transform orientation;
 
@@ -21,6 +21,7 @@ public class PlayerMovement : NetworkBehaviour {
     private Rigidbody rb;
 
     //Rotation and look
+    // public GameObject cameraContainer;
     private float xRotation;
     private float sensitivity = 50f;
     private float sensMultiplier = 2f;
@@ -55,6 +56,9 @@ public class PlayerMovement : NetworkBehaviour {
     //Sliding
     private Vector3 normalVector = Vector3.up;
     private Vector3 wallNormalVector;
+    
+    //Headbob
+    private float headbobCounter = (float) Math.PI;
 
     void Awake() {
         rb = GetComponent<Rigidbody>();
@@ -86,6 +90,7 @@ public class PlayerMovement : NetworkBehaviour {
             MyInput();
             Look();
             CheckCrosshair();
+            Headbob();
         }
     }
 
@@ -97,9 +102,9 @@ public class PlayerMovement : NetworkBehaviour {
         y = SimpleInput.GetAxisRaw("Vertical");
         jumping = SimpleInput.GetButton("Jump");
         crouching = SimpleInput.GetButton("Crouch");
-        if (SimpleInput.GetKeyDown(KeyCode.Q)) {
+        /*if (SimpleInput.GetKeyDown(KeyCode.Q)) {
             DamagePlayer();
-        }
+        }*/
       
         //Crouching
         if (SimpleInput.GetButtonDown("Crouch"))
@@ -108,13 +113,21 @@ public class PlayerMovement : NetworkBehaviour {
             StopCrouch();
     }
 
+    private void Headbob() {
+        if (crouching) {
+            return;
+        }
+
+        camera.transform.localPosition = Vector3.up * ((Mathf.Sin(headbobCounter) - .5f) * 0.05f);
+        var velocity = rb.velocity;
+        headbobCounter += Time.deltaTime * 1f * (new Vector2(velocity.x, velocity.z)).magnitude;
+    }
+
     private void CheckCrosshair() {
-        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-        Debug.DrawRay(ray.origin, ray.direction);
-        // RaycastHit[] hits = Physics.RaycastAll(ray);
+        Debug.DrawRay(playerCam.transform.position, playerCam.transform.forward);
         
         RaycastHit hit;
-        if (Physics.SphereCast(ray, 0.2f, out hit, maxUseDistance, raycastMask)) {
+        if (Physics.SphereCast(playerCam.transform.position, 0.2f, playerCam.transform.forward, out hit, maxUseDistance, raycastMask)) {
             if (hit.collider.tag != "Interactable") {
                 if (useButton) {
                     useButton.active = false;
@@ -143,7 +156,7 @@ public class PlayerMovement : NetworkBehaviour {
 
     private void StartCrouch() {
         transform.localScale = crouchScale;
-        transform.position = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
+        transform.position += Vector3.up * - 0.5f;
         if (rb.velocity.magnitude > 0.5f) {
             if (grounded) {
                 rb.AddForce(orientation.transform.forward * slideForce);
@@ -153,7 +166,7 @@ public class PlayerMovement : NetworkBehaviour {
 
     private void StopCrouch() {
         transform.localScale = playerScale;
-        transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
+        transform.position += Vector3.up * 0.5f;
     }
 
     private void Movement() {
@@ -370,12 +383,12 @@ public class PlayerMovement : NetworkBehaviour {
     void OnGUI() {
         if (!base.isLocalPlayer) return;
 
-        var style = new GUIStyle();
-        style.fontSize = 18;
-        GUI.color = Color.white;
-        GUI.contentColor = Color.white;
-        GUI.Label(new Rect(new Vector2(300, 300), new Vector2(200, 100)), "Velocity: "+rb.velocity, style);
-        GUI.Label(new Rect(new Vector2(300, 330), new Vector2(200, 100)), "Velocity: "+rb.velocity.magnitude, style);
+        // var style = new GUIStyle();
+        // style.fontSize = 18;
+        // GUI.color = Color.white;
+        // GUI.contentColor = Color.white;
+        // GUI.Label(new Rect(new Vector2(300, 300), new Vector2(200, 100)), "Velocity: "+rb.velocity, style);
+        // GUI.Label(new Rect(new Vector2(300, 330), new Vector2(200, 100)), "Velocity: "+rb.velocity.magnitude, style);
         if (usableGameObject != null) {
             var dist = Vector3.Distance(this.transform.position, usableGameObject.transform.position);
             var size = Map(maxUseDistance - dist, 0, maxUseDistance, 35, 70);

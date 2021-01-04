@@ -6,7 +6,7 @@ using Mirror;
 public class PlayerFlashlight : NetworkBehaviour {
     public Light lightGameObject;
     public Camera camera;
-    public Vector3 last;
+    private Vector3 last;
 
     [SyncVar(hook=nameof(SetFlashlightEnabled))]
     public bool lightEnabled = false;
@@ -27,7 +27,7 @@ public class PlayerFlashlight : NetworkBehaviour {
                 CmdSwitchFlashlight();
                 lightGameObject.enabled = !lightGameObject.enabled;
             }
-            lightGameObject.transform.eulerAngles = Vector3.Lerp(camera.transform.eulerAngles, last, GetMouseMag()*Time.deltaTime);
+            lightGameObject.transform.eulerAngles = Vector3.Lerp(camera.transform.eulerAngles, last, 5);
             last = camera.transform.eulerAngles;
         }
     }
