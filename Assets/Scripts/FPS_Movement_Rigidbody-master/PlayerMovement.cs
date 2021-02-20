@@ -40,6 +40,7 @@ public class PlayerMovement : NetworkBehaviour {
     //Crouch & Slide
     private Vector3 crouchScale = new Vector3(1, 0.5f, 1);
     private Vector3 playerScale;
+    public Vector3 slideDir;
     public float slideForce = 400;
     public float slideCounterMovement = 0.2f;
 
@@ -88,6 +89,9 @@ public class PlayerMovement : NetworkBehaviour {
     private void Update() {
         if (base.isLocalPlayer) {
             MyInput();
+            if (SimpleInput.GetKeyDown(KeyCode.M)) {
+                Debug.Log("Toggling motion blur...");
+            }
             Look();
             CheckCrosshair();
             Headbob();
@@ -102,11 +106,17 @@ public class PlayerMovement : NetworkBehaviour {
         y = SimpleInput.GetAxisRaw("Vertical");
         jumping = SimpleInput.GetButton("Jump");
         crouching = SimpleInput.GetButton("Crouch");
-        /*if (SimpleInput.GetKeyDown(KeyCode.Q)) {
-            DamagePlayer();
-        }*/
+        
+        // Exiting
+        if (SimpleInput.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
+
+        if (SimpleInput.GetKeyDown(KeyCode.M)) {
+            camera.gameObject.GetComponent<Camera>();
+        }
       
-        //Crouching
+        // Crouching
         if (SimpleInput.GetButtonDown("Crouch"))
             StartCrouch();
         if (SimpleInput.GetButtonUp("Crouch"))
@@ -114,6 +124,9 @@ public class PlayerMovement : NetworkBehaviour {
     }
 
     private void Headbob() {
+        // camera.transform.localRotation =
+        //     Quaternion.Euler(Vector3.forward * Map(x, -1, 1, -5, 5) * -1);
+        
         if (crouching) {
             return;
         }

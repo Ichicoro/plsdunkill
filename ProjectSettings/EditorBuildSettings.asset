@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Polus.unity
     guid: 242572963c193374a9d1b4aa88101fdd
+  - enabled: 1
+    path: Assets/Scenes/Polus_sp.unity
+    guid: 9cf05d0b0319a0c4d8fc535516ecd42c
   m_configObjects: {}

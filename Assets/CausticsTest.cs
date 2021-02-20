@@ -6,6 +6,7 @@ public class CausticsTest : MonoBehaviour {
     private Light light;
 
     public bool enabled = true;
+    public bool debug = false;
     [Range(1,120)] public int fps = 30;
     public Texture[] textures;
     public int idx;
@@ -28,6 +29,8 @@ public class CausticsTest : MonoBehaviour {
 
         light.cookie = textures[idx];
         idx = (idx + 1) % textures.Length;
-        Debug.Log("current frame: " + idx);
+        if (debug) {
+            Debug.Log("current frame: " + idx);
+        }
     }
 }

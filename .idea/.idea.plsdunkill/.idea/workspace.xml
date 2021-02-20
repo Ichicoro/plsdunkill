@@ -31,208 +31,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f50f79c9-b581-47c4-bc1c-7557969654c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/Linear to Unity Log r1.cube" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/Linear to Unity Log r1.cube.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/Linear to sRGB r1.cube" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/Linear to sRGB r1.cube.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/Unity Log to Linear r1.cube" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/Unity Log to Linear r1.cube.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/Unity Log to sRGB r1.cube" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/Unity Log to sRGB r1.cube.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/sRGB to Linear r1.cube" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/sRGB to Linear r1.cube.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/sRGB to Unity Log r1.cube" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Cube LUTs/sRGB to Unity Log r1.cube.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt00.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_BlueRed.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_BlueRed.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_GreenPurple.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_GreenPurple.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_PurpleGreen.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_PurpleGreen.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_RedBlue.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_RedBlue.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UpdateCrosshairPosition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UpdateCrosshairPosition.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/91458-16010616751759.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/91458-16010616751759.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Compositor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Compositor/DefaultCompositionGraph.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Compositor/DefaultCompositionGraph.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Compositor/DefaultCompositionGraph.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Compositor/DefaultCompositionGraph.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/EmissiveMat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/EmissiveMat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Lighting Settings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Lighting Settings.lighting.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CausticsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CausticsTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DeathBarrier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DeathBarrier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DevConsole/Help/Documentation/Images/DevConsole_AddCommand.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DevConsole/Help/Documentation/Images/DevConsole_AddCommand.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DevConsole/Help/Documentation/Images/DevConsole_AddingEventSystem.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DevConsole/Help/Documentation/Images/DevConsole_AddingEventSystem.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DevConsole/Help/Documentation/Images/DevConsole_AddingUIPrefab.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DevConsole/Help/Documentation/Images/DevConsole_AddingUIPrefab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DevConsole/Help/Documentation/Images/DevConsole_Configure.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DevConsole/Help/Documentation/Images/DevConsole_Configure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DisableOnGameStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DisableOnGameStart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/ConstructionLight_Low.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/ConstructionLight_Low.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Stud.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Stud.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workbench.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workbench.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workbench_Low.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workbench_Low.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workshop_Set.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workshop_Set.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/brush_low.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/brush_low.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/hammer_low.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/hammer_low.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/jigsaw_low.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/jigsaw_low.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/magneticlevel_low.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/magneticlevel_low.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/paintbucket_low.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/paintbucket_low.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/safetygoggles_low.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/safetygoggles_low.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/safetyhat_low.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/safetyhat_low.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/small_plane.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Models/small_plane.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Models/Computer.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Models/Computer.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Models/OfficeRoom.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Models/OfficeRoom.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Models/Props.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Models/Props.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Scene/Demo/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Scene/Demo/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Scene/Demo/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Scene/Demo/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-01.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-01.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-02.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-02.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-03.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-03.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-04.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-04.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-05.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-05.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-06.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-06.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-07.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-07.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-08.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-08.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-09.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-09.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-10.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-10.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-11.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Carpet/Carpet-11.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-01.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-01.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-02.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-02.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-03.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-03.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-04.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-04.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-05.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-05.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-06.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-06.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-07.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-07.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-08.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-08.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-09.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-09.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-10.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-10.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-11.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Concrete/Concrete-11.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_01.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_01.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_02.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_02.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_03.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_03.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_04.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_04.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_05.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_05.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_06.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_06.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_07.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_07.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_08.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_08.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_09.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_09.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_10.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_10.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_11.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Sounds/sfx/Footsteps/Grass/Grass_11.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Asphalt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Asphalt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Carpet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Carpet.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Drywall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Drywall.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Shadeless Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Materials/Shadeless Black.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Materials/SideWalk.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Materials/SideWalk.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Carpet/Carpet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Carpet/Carpet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Carpet/Carpet_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Carpet/Carpet_Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Concrete/Concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Concrete/Concrete.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Concrete/Concrete_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Concrete/Concrete_Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Back.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Front.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Front.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Left.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Right.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Top.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Hinge Door Texture Metallic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Hinge Door Texture Metallic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Hinge Door Texture.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Hinge Door Texture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Sliding Door Texture.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Sliding Door Texture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Glass/GlassFrosted.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Glass/GlassFrosted.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Glass/glassNormal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Glass/glassNormal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Back.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Front.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Front.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Left.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Right.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Top.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_Emission.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_Emission.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_Roughness.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_Roughness.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_matallic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_matallic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Reticle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Reticle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile_Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile_Roughness.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile_Roughness.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/JetBrainsMono-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/JetBrainsMono-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/JetBrainsMono-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/JetBrainsMono-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSceneRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSceneRoot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSceneRoot.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSceneRoot.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Skin Diffusion Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Skin Diffusion Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Skin Diffusion Profile.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Skin Diffusion Profile.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Sky and Fog Settings Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Sky and Fog Settings Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Sky and Fog Settings Profile.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Sky and Fog Settings Profile.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Checker.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Checker.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/DebugMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DebugMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DitherShader.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DitherShader.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GridBox_Default.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GridBox_Default.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SkyStar.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/SkyStar.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Capsule.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Capsule.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Cube.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Cube.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Cylinder.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Cylinder.mat" afterDir="false" />
@@ -243,154 +60,62 @@
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Zone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Zone.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Benchmark/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Benchmark/Materials/Red.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Benchmark/Materials/White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Benchmark/Materials/White.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/Ball.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/Ball.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/DottedLine.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/DottedLine.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/Racket.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/Racket.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/WallHorizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/WallHorizontal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/WallVertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/WallVertical.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/PlayArea.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/PlayArea.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Player.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Prize.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Prize.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Icosphere.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Icosphere.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Pong/Sprites/Ball.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Pong/Sprites/Ball.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Pong/Sprites/DottedLine.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Pong/Sprites/DottedLine.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Pong/Sprites/Racket.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Pong/Sprites/Racket.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Pong/Sprites/WallHorizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Pong/Sprites/WallHorizontal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Pong/Sprites/WallVertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Pong/Sprites/WallVertical.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Green.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Red.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/PlayArea.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/PlayArea.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Player.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Prize.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Prize.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Textures/Wall01.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Textures/Wall01.tga" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Textures/Wall01_n.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Textures/Wall01_n.tga" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/BaseColor.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/BaseColor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Emissive.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Emissive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Metallic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Metallic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/Normal.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial_MaskMap.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial_MaskMap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/reconTank.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/reconTank.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial_MaskMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial_MaskMap.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/dirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/dirt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Textures/ProjectileMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Textures/ProjectileMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Table_01.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Table_01.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/cocktails_in_space.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Music/cocktails_in_space.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/end_of_summer.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Music/end_of_summer.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/love_theme.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Music/love_theme.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt00.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt00.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_BlueRed.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_BlueRed.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_GreenPurple.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_GreenPurple.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_PurpleGreen.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_PurpleGreen.tga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_RedBlue.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_RedBlue.tga" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/LightingData.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Jukebox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Jukebox.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MinimapCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MinimapCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerFlashlight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerFlashlight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TestButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TestButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Checker.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Checker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/ConfettiParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/ConfettiParticle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Cookie_tutorial_texture_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Cookie_tutorial_texture_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Cookie_tutorial_texture_flashlight.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Cookie_tutorial_texture_flashlight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/GridBox_Collider.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GridBox_Collider.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/GridBox_NoDraw.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GridBox_NoDraw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/GridBox_Trigger.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GridBox_Trigger.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Lens Textures/lensDirt9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/UsableItemOverlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/UsableItemOverlay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.01.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.01.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.02.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.02.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.03.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.03.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.04.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.04.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.05.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.05.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.06.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.06.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.07.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.07.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.08.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.08.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.09.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.09.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.10.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.10.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.11.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.11.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.12.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.12.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.13.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.13.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.14.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.14.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.15.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.15.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.16.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.16.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.17.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.17.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.18.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.18.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.19.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.19.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.20.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.20.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.21.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.21.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.22.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.22.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.23.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.23.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.24.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.24.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.25.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.25.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.26.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.26.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.27.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.27.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.28.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.28.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.29.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.29.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.30.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.30.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.31.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.31.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caus8/save.32.tif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caus8/save.32.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caustic_custom.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caustic_custom.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caustic_custom_gray.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caustic_custom_gray.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/caustic_noise.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/caustic_noise.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/confetti.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/confetti.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/toppng.com-coolest-pink-galaxy-background-blue-light-star-particle-light-particle-989x1014.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/toppng.com-coolest-pink-galaxy-background-blue-light-star-particle-light-particle-989x1014.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Help_Icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Help_Icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/UniversalIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/UniversalIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX/Stars.vfx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX/Stars.vfx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/CHANGELOG.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/LICENSE.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/LICENSE.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/ShaderConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/ShaderConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/ShaderConfig.cs.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/ShaderConfig.cs.hlsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/ShaderConfig.cs.hlsl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/ShaderConfig.cs.hlsl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/ShaderConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/ShaderConfig.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/Unity.RenderPipelines.HighDefinition.Config.Runtime.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/Unity.RenderPipelines.HighDefinition.Config.Runtime.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/Unity.RenderPipelines.HighDefinition.Config.Runtime.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Runtime/Unity.RenderPipelines.HighDefinition.Config.Runtime.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/.tests.json" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/.tests.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/Editor/ConfigurationTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/Editor/ConfigurationTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/Editor/ConfigurationTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/Editor/ConfigurationTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/Editor/Unity.RenderPipelines.HighDefinitionConfig.Editor.Tests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/Editor/Unity.RenderPipelines.HighDefinitionConfig.Editor.Tests.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/Editor/Unity.RenderPipelines.HighDefinitionConfig.Editor.Tests.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/Tests/Editor/Unity.RenderPipelines.HighDefinitionConfig.Editor.Tests.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/LocalPackages/com.unity.render-pipelines.high-definition-config/package.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Example player prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Example player prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,17 +125,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.yasirkula.simpleinput@2cf20317b1/Plugins/SimpleInput/Scripts/SimpleInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@10.2.2/Runtime/ShaderLibrary/ShaderVariablesXR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UpdateCrosshairPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CausticsTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/DeathBarrier.cs" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1kyib1dQxr9pzZiVVJbpZZOJGVG" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -419,8 +158,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34984127" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30031747" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.349976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -431,7 +170,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -448,7 +187,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -457,7 +196,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -473,6 +212,13 @@
       <workItem from="1606679311392" duration="13164000" />
       <workItem from="1609775900652" duration="2535000" />
       <workItem from="1609780024855" duration="1049000" />
+      <workItem from="1609953056211" duration="1451000" />
+      <workItem from="1609955163840" duration="4020000" />
+      <workItem from="1610139002416" duration="1427000" />
+      <workItem from="1610157585946" duration="618000" />
+      <workItem from="1610158581568" duration="623000" />
+      <workItem from="1613780375596" duration="2019000" />
+      <workItem from="1613782433747" duration="5676000" />
     </task>
     <servers />
   </component>
@@ -496,5 +242,15 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="196" key="#Plugins" timestamp="1613782401387">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state x="872" y="196" key="#Plugins/0.30.2560.1050/2560.-84.1280.1024@0.30.2560.1050" timestamp="1613782401387" />
+    <state x="943" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1613782367310">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state x="943" y="257" width="672" height="678" key="search.everywhere.popup/0.30.2560.1050/2560.-84.1280.1024@0.30.2560.1050" timestamp="1613782367310" />
   </component>
 </project>
