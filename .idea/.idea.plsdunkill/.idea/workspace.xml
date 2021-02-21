@@ -31,91 +31,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f50f79c9-b581-47c4-bc1c-7557969654c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Compositor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Compositor/DefaultCompositionGraph.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Compositor/DefaultCompositionGraph.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Compositor/DefaultCompositionGraph.shadergraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Compositor/DefaultCompositionGraph.shadergraph.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/EmissiveMat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/EmissiveMat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Lighting Settings.lighting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Lighting Settings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Documentation/Manual.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Documentation/Manual.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Documentation/ScriptingAPI.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Documentation/ScriptingAPI.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Editor/SimpleCrosshairEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Editor/SimpleCrosshairEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/SimpleCrosshairAPIExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/SimpleCrosshairAPIExample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/Utility/DisableOnPlay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/Utility/DisableOnPlay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CausticsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CausticsTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Sky and Fog Settings Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Sky and Fog Settings Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DebugMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DebugMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SkyStar.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/SkyStar.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Capsule.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Capsule.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Cube.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Cube.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Cylinder.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Cylinder.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Player.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Quad.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Quad.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Shelter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Shelter.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Sphere.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Sphere.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Zone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/AdditiveScenes/Materials/Zone.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Benchmark/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Benchmark/Materials/Red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Benchmark/Materials/White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Benchmark/Materials/White.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/PlayArea.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/PlayArea.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Player.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Prize.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Prize.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/Materials/Red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/PlayArea.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/PlayArea.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Player.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Prize.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Materials/Prize.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial_MaskMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial_MaskMap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Textures/ProjectileMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Tanks/Textures/ProjectileMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt00.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt00.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Lens Dirt/LensDirt03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_BlueRed.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_BlueRed.tga" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_GreenPurple.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_GreenPurple.tga" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_PurpleGreen.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_PurpleGreen.tga" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_RedBlue.tga" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Additional Post-processing Data/Spectral LUTs/SpectralLut_RedBlue.tga" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Global Volume Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/LightingData.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-0_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-1_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Polus/Lightmap-2_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DeathBarrier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DeathBarrier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Trigger.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Trigger.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Example player prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Example player prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +93,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -143,8 +113,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" />
+        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" />
+        <option value="$PROJECT_DIR$/Assets/DeathBarrier.cs" />
+        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" />
       </list>
     </option>
   </component>
@@ -218,8 +190,16 @@
       <workItem from="1610157585946" duration="618000" />
       <workItem from="1610158581568" duration="623000" />
       <workItem from="1613780375596" duration="2019000" />
-      <workItem from="1613782433747" duration="5676000" />
+      <workItem from="1613782433747" duration="15031000" />
     </task>
+    <task id="LOCAL-00001" summary="SOURCE MOVEMENT, WOOOO">
+      <created>1613860312006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613860312007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +222,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="SOURCE MOVEMENT, WOOOO" />
+    <option name="LAST_COMMIT_MESSAGE" value="SOURCE MOVEMENT, WOOOO" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="196" key="#Plugins" timestamp="1613782401387">

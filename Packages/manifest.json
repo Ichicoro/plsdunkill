@@ -13,6 +13,7 @@
     "com.unity.timeline": "1.3.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualeffectgraph": "10.2.2",
+    "com.veriorpies.parrelsync": "https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync",
     "com.yasirkula.simpleinput": "https://github.com/yasirkula/UnitySimpleInput.git",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",

@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Fragsurf.Movement;
 using UnityEngine;
 using Mirror;
 
-public class DeathBarrier : NetworkBehaviour {
+public class DeathBarrier: NetworkBehaviour {
     public Transform spawnPoint;
     public ParticleSystem particleSystem;
 
@@ -25,8 +26,14 @@ public class DeathBarrier : NetworkBehaviour {
     }
 
     private void OnTriggerEnter(Collider other) {
-        other.transform.position = spawnPoint.position;
-        other.attachedRigidbody.velocity = new Vector3(0, 0, 0);
+        Debug.Log(other);
+        var character = other.GetComponentInParent<SurfCharacter>();
+        if (character != null) {
+            character.Teleport(spawnPoint.position, true);
+        } else {
+            other.transform.position = spawnPoint.position;
+            other.attachedRigidbody.velocity = new Vector3(0, 0, 0);
+        }
         RpcOnRespawn();
     }
 

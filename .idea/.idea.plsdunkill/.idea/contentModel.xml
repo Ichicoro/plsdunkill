@@ -416,6 +416,20 @@
           <e p="55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" t="Include" />
           <e p="56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" t="Include" />
         </e>
+        <e p="Simple Crosshair Generator" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="SimpleCrosshairEditor.cs" t="Include" />
+            </e>
+            <e p="Example" t="Include">
+              <e p="SimpleCrosshairAPIExample.cs" t="Include" />
+              <e p="Utility" t="Include">
+                <e p="DisableOnPlay.cs" t="Include" />
+              </e>
+            </e>
+            <e p="SimpleCrosshair.cs" t="Include" />
+          </e>
+        </e>
         <e p="SourcePlayer" t="Include">
           <e p="UnitySourceMovement" t="Include">
             <e p="Modified fragsurf" t="Include">
