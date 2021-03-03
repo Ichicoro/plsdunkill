@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Polus.unity
     guid: 242572963c193374a9d1b4aa88101fdd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Polus_sp.unity
     guid: 9cf05d0b0319a0c4d8fc535516ecd42c
+  - enabled: 1
+    path: Assets/Scenes/PlayerMovement_Shooting.unity
+    guid: 2133bce0cc22c8549b6a89d5e34653db
   m_configObjects: {}

@@ -31,61 +31,378 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f50f79c9-b581-47c4-bc1c-7557969654c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/LightingData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/LightingData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_shadowmask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-0_comp_shadowmask.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_shadowmask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-1_comp_shadowmask.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_shadowmask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-2_comp_shadowmask.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_dir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_dir.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_light.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_shadowmask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Polus_sp/Lightmap-3_comp_shadowmask.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Documentation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Documentation/Manual.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Documentation/Manual.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Documentation/ScriptingAPI.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Documentation/ScriptingAPI.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Editor/SimpleCrosshairEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Editor/SimpleCrosshairEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/SimpleCrosshairAPIExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/SimpleCrosshairAPIExample.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/Utility.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/Utility/DisableOnPlay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/Utility/DisableOnPlay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Decals.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Decals.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Eye.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Eye.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Fabric.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Fabric.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Hair.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Hair.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/MaterialSamples.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/MaterialSamples.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Aluminium_Satin.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Aluminium_Satin.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Anodized Metal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Anodized Metal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/BlueGlass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/BlueGlass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Bricks.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Bricks.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/CarbonFiber.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/CarbonFiber.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Cotton.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Cotton.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/DC_WaterPuddle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/DC_WaterPuddle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Denim.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Denim.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Fern.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Fern.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/GlassThin.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/GlassThin.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/GreyFloor 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/GreyFloor 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/GreyFloor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/GreyFloor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Hair_Lower_Layer.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Hair_Lower_Layer.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Hair_Upper_Layer.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Hair_Upper_Layer.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Leather.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Leather.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Linen.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Linen.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/M_EyeSG 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/M_EyeSG 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/M_EyeSG 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/M_EyeSG 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/M_EyeSG 3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/M_EyeSG 3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/M_EyeSG 4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/M_EyeSG 4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Metal Anisotropy Circles.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Metal Anisotropy Circles.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Metal Brushed.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Metal Brushed.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Metal Foil.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Metal Foil.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Metal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Metal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Nickel.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Nickel.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Nylon.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Nylon.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/OrangeSphereGlass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/OrangeSphereGlass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/PlasterWall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/PlasterWall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/PolishedConcrete.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/PolishedConcrete.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceBlackArtificialRough.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceBlackArtificialRough.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceBlackArtificialSmooth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceBlackArtificialSmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceBlackNaturalRough.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceBlackNaturalRough.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceBlackNaturalSmooth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceBlackNaturalSmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceCopperRough.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceCopperRough.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceCopperSmooth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceCopperSmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceGoldRough.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceGoldRough.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceGoldSmooth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceGoldSmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceGreyRough.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceGreyRough.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceGreySmooth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceGreySmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceSilverRough.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceSilverRough.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceSilverSmooth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceSilverSmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceWhiteRough.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceWhiteRough.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceWhiteSmooth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ReferenceWhiteSmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ShotSilk.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/ShotSilk.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Silk.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Silk.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Skin Bright.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Skin Bright.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Skin Dark.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Skin Dark.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/SoapBubble.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/SoapBubble.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Unlit.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Unlit.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Velvet.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Velvet.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/WallTiles.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/WallTiles.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/WoodClean.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/WoodClean.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Wool.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Materials/Wool.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Meshes/Cloth.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Meshes/Cloth.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Decal Projector.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Decal Projector.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/DirectionalLight.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/DirectionalLight.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Eye1 Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Eye1 Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Eye2 Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Eye2 Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Eye3 Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Eye3 Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Eye4 Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Eye4 Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/FabricBall Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/FabricBall Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Frame.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Frame.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Free Camera.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Free Camera.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/HairBall Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/HairBall Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/MaterialBall.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/MaterialBall.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Rendering Settings.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Prefabs/Rendering Settings.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Cotton Thin.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Cotton Thin.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Foliage.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Foliage.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/IrisDiffusionProfile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/IrisDiffusionProfile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Linen Thin.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Linen Thin.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Materials Samples Rendering Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Materials Samples Rendering Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/ScleraDiffusionProfile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/ScleraDiffusionProfile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Skin.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Skin.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Wool Thick.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Settings/Wool Thick.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Shadergraphs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Shadergraphs/SG_Decal_WaterPuddle.ShaderGraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Shadergraphs/SG_Decal_WaterPuddle.ShaderGraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Shadergraphs/SG_Eye.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Shadergraphs/SG_Eye.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile_Ztest.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile_Ztest.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Shaders/TMPro.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/AluminumSatin_D.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/AluminumSatin_D.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Bricks_BC.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Bricks_BC.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Bricks_M.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Bricks_M.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Bricks_N.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Bricks_N.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/CarbonFiber_M.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/CarbonFiber_M.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/CarbonFiber_N.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/CarbonFiber_N.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/CarbonFiber_T.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/CarbonFiber_T.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Circles_Tangent.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Circles_Tangent.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/DC_puddle01_H.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/DC_puddle01_H.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/DC_puddle01_N.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/DC_puddle01_N.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Denim_C.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Denim_C.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Denim_CV.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Denim_CV.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Fern_BC.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Fern_BC.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Fern_M.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Fern_M.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Fern_N.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Fern_N.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Hair_AO.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Hair_AO.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Hair_BC.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Hair_BC.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Hair_N.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Hair_N.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Hair_S.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Hair_S.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Hair_Shift.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Hair_Shift.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Iris01_BC.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Iris01_BC.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Iris02_BC.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Iris02_BC.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Iris03_BC.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Iris03_BC.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Iris04_BC.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Iris04_BC.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Iris_N.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Iris_N.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Knit_Jersey_TM.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Knit_Jersey_TM.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Knit_Ribbed__TM.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Knit_Ribbed__TM.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Leather_M.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Leather_M.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Leather_N.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Leather_N.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/MetalPlate_BC.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/MetalPlate_BC.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/MetalPlate_M.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/MetalPlate_M.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/MetalPlate_N.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/MetalPlate_N.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Metal_Brushed_D.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Metal_Brushed_D.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Metal_dark_floor_D.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Metal_dark_floor_D.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Metal_foil_D.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Metal_foil_D.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/MoppedFloor_M1.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/MoppedFloor_M1.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/PlasterWall_D.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/PlasterWall_D.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Sclera_BC.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Sclera_BC.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Sclera_N.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Sclera_N.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Soap_T.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Soap_T.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/TilesWall_BC.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/TilesWall_BC.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/TilesWall_M.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/TilesWall_M.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/TilesWall_N.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/TilesWall_N.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/WeavePattern01_F.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/WeavePattern01_F.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Weave_Jacket_TM.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Weave_Jacket_TM.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Weave_Plain_CV.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Weave_Plain_CV.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Weave_Plain_TM.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Weave_Plain_TM.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Weave_Twill_TM.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Weave_Twill_TM.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Wood_Clean_basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Wood_Clean_basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Wood_Clean_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Wood_Clean_mask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Wood_Clean_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/Wood_Clean_normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/skin_D.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Samples/High Definition RP/10.2.2/Material Samples/Textures/skin_D.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Global Volume Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Global Volume Profile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_dir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_dir.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_light.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_light.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_shadowmask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_shadowmask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/test.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/test.lighting.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DeathBarrier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DeathBarrier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Trigger.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Trigger.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Checker.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Checker.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Collider.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Collider.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Material Palette.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Material Palette.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Example player prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Example player prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,16 +424,18 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.yasirkula.simpleinput@2cf20317b1/Plugins/SimpleInput/Scripts/SimpleInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@10.2.2/Runtime/ShaderLibrary/ShaderVariablesXR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UpdateCrosshairPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/27C4FEF4-1CD0-46CB-8B0F-ECA8B8BDE131/88/0bd01ce8/0200005Epdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CausticsTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.4.0/Runtime/Core/TriggerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" />
-        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" />
         <option value="$PROJECT_DIR$/Assets/DeathBarrier.cs" />
         <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" />
       </list>
     </option>
   </component>
@@ -142,7 +461,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -190,7 +509,10 @@
       <workItem from="1610157585946" duration="618000" />
       <workItem from="1610158581568" duration="623000" />
       <workItem from="1613780375596" duration="2019000" />
-      <workItem from="1613782433747" duration="15031000" />
+      <workItem from="1613782433747" duration="17153000" />
+      <workItem from="1614043896501" duration="7025000" />
+      <workItem from="1614275044332" duration="1817000" />
+      <workItem from="1614365436474" duration="15199000" />
     </task>
     <task id="LOCAL-00001" summary="SOURCE MOVEMENT, WOOOO">
       <created>1613860312006</created>
@@ -199,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613860312007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SOURCE MOVEMENT, WOOOO">
+      <created>1613933343762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613933343762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,9 +559,23 @@
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
     <state x="872" y="196" key="#Plugins/0.30.2560.1050/2560.-84.1280.1024@0.30.2560.1050" timestamp="1613782401387" />
-    <state x="943" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1613782367310">
-      <screen x="0" y="30" width="2560" height="1050" />
+    <state x="484" y="102" width="998" height="755" key="SettingsEditor" timestamp="1614388320750">
+      <screen x="0" y="40" width="2560" height="1040" />
+    </state>
+    <state x="484" y="93" width="998" height="755" key="SettingsEditor/0.30.2560.1050/2560.-84.1280.1024@0.30.2560.1050" timestamp="1614293967742" />
+    <state x="484" y="102" key="SettingsEditor/0.40.2560.1040/2560.-84.1280.1024@0.40.2560.1040" timestamp="1614388320750" />
+    <state x="2792" y="161" key="Vcs.Push.Dialog.v2" timestamp="1613933366520">
+      <screen x="2560" y="-84" width="1280" height="1024" />
+    </state>
+    <state x="2792" y="161" key="Vcs.Push.Dialog.v2/0.30.2560.1050/2560.-84.1280.1024@2560.-84.1280.1024" timestamp="1613933366520" />
+    <state x="3054" y="141" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1613933496148">
+      <screen x="2560" y="-84" width="1280" height="1024" />
+    </state>
+    <state x="3054" y="141" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.30.2560.1050/2560.-84.1280.1024@2560.-84.1280.1024" timestamp="1613933496148" />
+    <state x="943" y="265" width="672" height="672" key="search.everywhere.popup" timestamp="1614379394102">
+      <screen x="0" y="40" width="2560" height="1040" />
     </state>
     <state x="943" y="257" width="672" height="678" key="search.everywhere.popup/0.30.2560.1050/2560.-84.1280.1024@0.30.2560.1050" timestamp="1613782367310" />
+    <state x="943" y="265" width="672" height="672" key="search.everywhere.popup/0.40.2560.1040/2560.-84.1280.1024@0.40.2560.1040" timestamp="1614379394102" />
   </component>
 </project>
