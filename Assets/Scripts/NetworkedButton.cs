@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
 
-public class NetworkedButton: NetworkBehaviour {
+public class NetworkedButton: NetworkBehaviour, IInteractableEntity {
     [SyncVar]
     public bool enabled = false;
     public GameObject light;
@@ -39,7 +39,7 @@ public class NetworkedButton: NetworkBehaviour {
     }
 
     [Command(ignoreAuthority = true)]
-    public void CmdExecuteAction() {
+    public void CmdExecuteAction(GameObject entity) {
         RpcCalledOnClick();
     }
 }
