@@ -1,45 +1,39 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Interfaces;
 using UnityEngine;
 using Mirror;
 
 public class NetworkedButton: NetworkBehaviour, IInteractableEntity {
     [SyncVar]
-    public bool enabled = false;
-    public GameObject light;
-    public ParticleSystem particleSystem;
+    public bool active = false;
 
-    void Start() {
+    [ShowInInspector]
+    public GameObject actionReceiver;
+
+    private ISingleActionReceiver _receiver;
+
+    private void Start() {
         gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
-    }
-
-
-    void Update() {
-        
+        _receiver = actionReceiver.GetComponent<ISingleActionReceiver>();
     }
 
     [ClientRpc]
     void RpcCalledOnClick() {
-        if (particleSystem) {
-            particleSystem.Play();
-        }
-        if (enabled) {
-            enabled = false;
-            gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
-            if (light) {
-                light.GetComponent<Light>().enabled = false;
-            }
-        } else {
-            enabled = true;
+        if (active) {
+            // active = false;
             gameObject.GetComponent<MeshRenderer>().material.color = Color.green;
-            if (light) {
-                light.GetComponent<Light>().enabled = true;
-            }
+        } else {
+            // active = true;
+            gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
         }
     }
 
-    [Command(ignoreAuthority = true)]
+    [Command(requiresAuthority = false)]
     public void CmdExecuteAction(GameObject entity) {
+        active = !active;
+        Debug.Log("Btn pressed");
+        _receiver.ExecuteAction();
         RpcCalledOnClick();
     }
 }

@@ -31,7 +31,7 @@ public class HealingStation: NetworkBehaviour, IInteractableEntity {
         }
     }
 
-    [Command(ignoreAuthority = true)]
+    [Command(requiresAuthority = false)]
     public void CmdExecuteAction(GameObject user) {
         Debug.Log("Called");
         var player = user.GetComponent<SurfCharacter>();

@@ -17,7 +17,7 @@ public class Button: NetworkBehaviour {
 
     }
 
-    [Command(ignoreAuthority = true)]
+    [Command(requiresAuthority = false)]
     public void ExecuteAction() {
         CalledOnClick();
     }
