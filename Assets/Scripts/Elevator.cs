@@ -9,15 +9,15 @@ public class Elevator: NetworkBehaviour, ISingleActionReceiver {
 
     // Update is called once per frame
     private void Update() {
-        if (!isServer && active && isLocalPlayer) {
-            // transform.position += Vector3.up * (2 * Time.deltaTime);
+        if (isServer && active/* && isLocalPlayer*/) {
+            transform.position += Vector3.up * (2 * Time.deltaTime);
             var casts = Physics.BoxCastAll(gameObject.transform.position, new Vector3(4f, 4f, 4f), Vector3.up);
             foreach (var raycastHit in casts) {
                 Debug.DrawRay(gameObject.transform.position, raycastHit.point);
                 Debug.Log("something inside");
                 SurfCharacter surf = raycastHit.collider.GetComponent<SurfCharacter>();
                 if (surf != null) {
-                    surf.RpcAddVelocity(Vector3.up * (Time.deltaTime * 3));
+                    surf.AddPosition(Vector3.up * (Time.deltaTime * 2));
                 }
             }
         }
@@ -25,13 +25,13 @@ public class Elevator: NetworkBehaviour, ISingleActionReceiver {
     
 
     private void OnCollisionEnter(Collision other) {
-        if (!isServer && !isLocalPlayer && !active) return;
+        if (!isServer && !active) return;
 
         Debug.Log("Well well");
         
         SurfCharacter surf = other.collider.GetComponent<SurfCharacter>();
         if (surf != null) {
-            surf.RpcAddVelocity(Vector3.up * (Time.deltaTime * 3));
+            surf.AddPosition(Vector3.up * (Time.deltaTime * 2));
         }
     }
 

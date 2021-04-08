@@ -29,8 +29,10 @@ public class NetworkedButton: NetworkBehaviour, IInteractableEntity {
         }
     }
 
-    [Command(requiresAuthority = false)]
-    public void CmdExecuteAction(GameObject entity) {
+    // [Command(requiresAuthority = false)]
+    public void CmdExecuteAction(GameObject entity, bool usedOnce) {
+        if (usedOnce) return;
+        
         active = !active;
         Debug.Log("Btn pressed");
         _receiver.ExecuteAction();

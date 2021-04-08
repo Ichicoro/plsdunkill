@@ -157,7 +157,7 @@ public class PlayerMovement : NetworkBehaviour {
 
             NetworkedButton nb = hit.collider.gameObject.GetComponent<NetworkedButton>();
             if (nb != null && SimpleInput.GetButtonDown("Use")) {
-                nb.CmdExecuteAction(gameObject);
+                // nb.CmdExecuteAction(gameObject, );
             }
         } else {
             usableGameObject = null;

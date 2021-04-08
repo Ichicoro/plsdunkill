@@ -30,12 +30,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f50f79c9-b581-47c4-bc1c-7557969654c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/New Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/New Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/WatermonkeStudios.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/WatermonkeStudios.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HealthPack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HealthPack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/grenade.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/grenade.blend.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/grenade.blend1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/grenade.blend1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/health pickup.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/health pickup.blend.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/health pickup.blend1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/health pickup.blend1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/networkstuff.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/networkstuff.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/AchievedWithWatermonkeEngine.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/AchievedWithWatermonkeEngine.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Box Volume Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Box Volume Profile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/dust2.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/dust2.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/achieved with watermonke engine.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/achieved with watermonke engine.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/watermonke_studios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/watermonke_studios.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Glass.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Example player prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Example player prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealingStation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealingStation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IInteractableEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IInteractableEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/MoveData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/MoveData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +122,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -61,20 +135,20 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://H:/robella/plsdunkill/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/27C4FEF4-1CD0-46CB-8B0F-ECA8B8BDE131/88/0bd01ce8/0200005Epdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealingStation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/SyncList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamageTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../plsdunkill_clone_0/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Elevator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://H:/robella/plsdunkill/Assets/Scenes/PlayerMovement_Shooting.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.yasirkula.simpleinput@2cf20317b1/Plugins/SimpleInput/Scripts/SimpleInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/MoveData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@10.2.2/Runtime/ShaderLibrary/ShaderVariablesXR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/robella/plsdunkill/Assets/Scenes/PlayerMovement_Shooting.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.4.0/Runtime/Core/TriggerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HealthPack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://H:/robella/plsdunkill/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://H:/robella/plsdunkill/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,18 +158,20 @@
         <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/StickySurface.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthAmount.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DamageTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractableEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IInteractableEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealingStation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TestButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/ISingleActionReceiver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
         <option value="$PROJECT_DIR$/../plsdunkill_clone_0/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" />
+        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" />
+        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/MoveData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IInteractableEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealingStation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
         <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/HealthPack.cs" />
       </list>
     </option>
   </component>
@@ -176,6 +252,8 @@
       <workItem from="1614733803901" duration="14928000" />
       <workItem from="1616176790449" duration="36531000" />
       <workItem from="1616363679020" duration="1028000" />
+      <workItem from="1616608951263" duration="4834000" />
+      <workItem from="1616895604443" duration="32203000" />
     </task>
     <task id="LOCAL-00001" summary="SOURCE MOVEMENT, WOOOO">
       <created>1613860312006</created>
@@ -205,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616280407383</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Server-authoritative!">
+      <created>1616609038821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616609038821</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +317,8 @@
     <MESSAGE value="idk aaaa" />
     <MESSAGE value="idk bruh added fall damage, life stuff and shit" />
     <MESSAGE value="uwu" />
-    <option name="LAST_COMMIT_MESSAGE" value="uwu" />
+    <MESSAGE value="Server-authoritative!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server-authoritative!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="196" key="#Plugins" timestamp="1613782401387">
@@ -243,17 +329,17 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1027" y="209" key="RollbackChangesDialog/0.0.2560.1040/2560.-84.1280.1024@0.0.2560.1040" timestamp="1615128759631" />
-    <state x="484" y="63" width="998" height="755" key="SettingsEditor" timestamp="1616462000386">
+    <state x="484" y="63" width="998" height="755" key="SettingsEditor" timestamp="1617236620284">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="484" y="63" key="SettingsEditor/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1616462000386" />
+    <state x="484" y="63" key="SettingsEditor/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1617236620284" />
     <state x="484" y="93" width="998" height="755" key="SettingsEditor/0.30.2560.1050/2560.-84.1280.1024@0.30.2560.1050" timestamp="1614293967742" />
     <state x="484" y="102" key="SettingsEditor/0.40.2560.1040/2560.-84.1280.1024@0.40.2560.1040" timestamp="1614388320750" />
-    <state x="464" y="251" key="Vcs.Push.Dialog.v2" timestamp="1616280434455">
+    <state x="464" y="251" key="Vcs.Push.Dialog.v2" timestamp="1616609051506">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="2792" y="161" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.-84.1280.1024@2560.-84.1280.1024" timestamp="1614735865394" />
-    <state x="464" y="251" key="Vcs.Push.Dialog.v2/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1616280434455" />
+    <state x="464" y="251" key="Vcs.Push.Dialog.v2/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1616609051506" />
     <state x="2792" y="161" key="Vcs.Push.Dialog.v2/0.30.2560.1050/2560.-84.1280.1024@2560.-84.1280.1024" timestamp="1613933366520" />
     <state x="3054" y="141" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1613933496148">
       <screen x="2560" y="-84" width="1280" height="1024" />
@@ -267,6 +353,10 @@
       <screen x="2560" y="-84" width="1280" height="1024" />
     </state>
     <state x="2884" y="299" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1040/2560.-84.1280.1024@2560.-84.1280.1024" timestamp="1614735858080" />
+    <state x="870" y="265" key="run.anything.popup" timestamp="1617239645240">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="870" y="265" key="run.anything.popup/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1617239645240" />
     <state x="944" y="228" width="1344" height="679" key="search.everywhere.popup" timestamp="1616293646873">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>

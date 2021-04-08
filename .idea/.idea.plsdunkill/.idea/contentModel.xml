@@ -45,6 +45,7 @@
           </e>
           <e p="README.txt" t="Include" />
         </e>
+        <e p="HealthPack.cs" t="Include" />
         <e p="Mirror" t="Include">
           <e p="Authenticators" t="Include">
             <e p="BasicAuthenticator.cs" t="Include" />

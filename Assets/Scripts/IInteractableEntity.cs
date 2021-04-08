@@ -3,5 +3,5 @@ using Mirror;
 using UnityEngine;
 
 public interface IInteractableEntity {
-    public void CmdExecuteAction(GameObject user);
+    public void CmdExecuteAction(GameObject user, bool usedOnce);
 }
