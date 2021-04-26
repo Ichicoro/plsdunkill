@@ -30,86 +30,962 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f50f79c9-b581-47c4-bc1c-7557969654c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/New Animation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/New Animation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/WatermonkeStudios.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/WatermonkeStudios.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/HealthPack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/HealthPack.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/grenade.blend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/grenade.blend.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/grenade.blend1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/grenade.blend1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/health pickup.blend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/health pickup.blend.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/health pickup.blend1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/health pickup.blend1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/networkstuff.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/networkstuff.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/AchievedWithWatermonkeEngine.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/AchievedWithWatermonkeEngine.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Box Volume Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Box Volume Profile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/ReflectionProbe-0.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/ReflectionProbe-0.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/dust2.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/dust2.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/achieved with watermonke engine.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/achieved with watermonke engine.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/watermonke_studios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/watermonke_studios.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/coglionazzo.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/coglionazzo.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGBrush.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGBrush.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGOperation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGOperation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/ChildNodeData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/ChildNodeData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/CompareShape.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/CompareShape.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/CompareTransformation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/CompareTransformation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/ComponentUpgrader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/ComponentUpgrader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/GeometryWireframe.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/GeometryWireframe.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/HierarchyItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/HierarchyItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/ParentNodeData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Components/Runtime/Utility/ParentNodeData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/BrushMesh.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/BrushMesh.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/BrushMeshInstance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/BrushMeshInstance.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/BrushMeshUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/BrushMeshUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/BrushValidation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/BrushValidation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGTree.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGTree.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGTreeBranch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGTreeBranch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGTreeBrush.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGTreeBrush.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGTreeNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGTreeNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/BrushMeshInstance.Native.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/BrushMeshInstance.Native.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGManager.Native.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGManager.Native.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGTree.Native.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGTree.Native.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGTreeBranch.Native.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGTreeBranch.Native.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGTreeBrush.Native.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGTreeBrush.Native.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGTreeNode.Native.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGTreeNode.Native.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Version.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Version.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/CSGOperationType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/CSGOperationType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/GeneratedMeshContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/GeneratedMeshContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/GeneratedMeshDescription.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/GeneratedMeshDescription.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/MeshQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/MeshQuery.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/SurfaceLayers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/SurfaceLayers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/VertexChannelFlags.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/VertexChannelFlags.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Editor/BrushFactory.Legacy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Editor/BrushFactory.Legacy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Editor/BrushFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Editor/BrushFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/CSGPlane.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/CSGPlane.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/ControlMesh.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/ControlMesh.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/Shape.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/Shape.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/Surface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/Surface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/TexGen.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/TexGen.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/TexGenFlags.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/API/Legacy/Runtime/TexGenFlags.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle/Contents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle/Contents/Info.plist.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle/Contents/MacOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle/Contents/MacOS/.smbdeleteAAAd00000026b0f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle/Contents/MacOS/RealtimeCSG[1_559]" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle/Contents/MacOS/RealtimeCSG[1_559].meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle/Contents/_CodeSignature.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle/Contents/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/RealtimeCSG[1_559].bundle/Contents/_CodeSignature/CodeResources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/x64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/x64/RealtimeCSG[1_559].dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/External/x64/RealtimeCSG[1_559].dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/GUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/GUI/infobg_blk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/GUI/infobg_blk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_addition_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_addition_small.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_addition_small_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_addition_small_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_intersection_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_intersection_small.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_intersection_small_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_intersection_small_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_subtraction_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_subtraction_small.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_subtraction_small_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_subtraction_small_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_grid.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_grid_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_grid_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_gridsnap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_gridsnap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_gridsnap_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_gridsnap_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_nosnap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_nosnap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_nosnap_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_nosnap_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_pass_through.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_pass_through.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_pass_through_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_pass_through_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_rebuild.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_rebuild.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_rebuild_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_rebuild_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_relsnap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_relsnap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_relsnap_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_relsnap_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_remove_behind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_remove_behind.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_remove_behind_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_remove_behind_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_remove_front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_remove_front.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_remove_front_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_remove_front_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_snapping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_snapping.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_snapping_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_snapping_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_split.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_split.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_split_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_split_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_wireframe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_wireframe.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_wireframe_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_wireframe_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_addition_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_addition_small.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_addition_small_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_addition_small_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_intersection_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_intersection_small.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_intersection_small_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_intersection_small_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_subtraction_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_subtraction_small.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_subtraction_small_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_csg_subtraction_small_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_grid.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_grid_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_grid_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_gridsnap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_gridsnap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_gridsnap_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_gridsnap_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_nosnap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_nosnap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_nosnap_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_nosnap_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_pass_through.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_pass_through.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_pass_through_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_pass_through_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_rebuild.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_rebuild.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_rebuild_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_rebuild_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_relsnap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_relsnap.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_relsnap_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_relsnap_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_remove_behind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_remove_behind.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_remove_behind_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_remove_behind_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_remove_front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_remove_front.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_remove_front_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_remove_front_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_snapping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_snapping.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_snapping_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_snapping_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_split.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_split.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_split_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_split_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_wireframe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_wireframe.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_wireframe_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_wireframe_on.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/background.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/background.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/coloredPolygon.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/coloredPolygon.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customDot.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customDot.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customNoDepthSurface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customNoDepthSurface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customSurface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customSurface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customThickWire.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customThickWire.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customWire.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customWire.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customWireDotted.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customWireDotted.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/genericLine.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/genericLine.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/grid.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/grid.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/noZTestGenericLine.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/noZTestGenericLine.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/orthogrid.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/orthogrid.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/specialSurface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/specialSurface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/transparentSpecialSurface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/transparentSpecialSurface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/zTestGenericLine.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/zTestGenericLine.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/castShadows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/castShadows.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/collider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/collider.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/culled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/culled.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/discarded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/discarded.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/hidden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/hidden.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/invisible.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/invisible.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/receiveShadows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/receiveShadows.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/shadowOnly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/shadowOnly.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/trigger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Resources/Textures/trigger.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Attributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Attributes/CSGModelModifiedEventAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Attributes/CSGModelModifiedEventAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Bindings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Bindings/NativeMethodBindings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Bindings/NativeMethodBindings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Bindings/NativeMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Bindings/NativeMethods.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/BrushTraits.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/BrushTraits.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/BrushUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/BrushUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/ControlMeshUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/ControlMeshUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/GeometryUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/GeometryUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/MaterialUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/MaterialUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/ModelTraits.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/ModelTraits.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/OperationsUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/OperationsUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/ShapePolygonUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/ShapePolygonUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/ShapeUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/ShapeUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/SurfaceUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/SurfaceUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/CSGModelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/CSGModelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/CSGSceneManagerInstance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/CSGSceneManagerInstance.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.Caches.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.Caches.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.DefaultModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.DefaultModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.Hierarchy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.Hierarchy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.Lifetime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.Lifetime.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.Registration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.Registration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.UpdateMeshes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/InternalCSGModelManager.UpdateMeshes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/MeshInstanceManager.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/MeshInstanceManager.Build.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/MeshInstanceManager.Export.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/MeshInstanceManager.Export.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/MeshInstanceManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/MeshInstanceManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/RectangleSelectionManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/RectangleSelectionManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/SceneViewEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/SceneViewEventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/UnityCompilerDefineManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/UnityCompilerDefineManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/UnityGridManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/UnityGridManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/UpdateLoop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/UpdateLoop.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Operations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Operations/BrushOperations.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Operations/BrushOperations.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Operations/ControlMeshOperations.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Operations/ControlMeshOperations.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Operations/TransformOperations.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Operations/TransformOperations.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/UndoGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/UndoGroup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/GUIConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/GUIConstants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Hierarchy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Hierarchy/HierarchyItemExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Hierarchy/HierarchyItemExtension.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Hierarchy/ParentNodeDataExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Hierarchy/ParentNodeDataExtension.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SceneQuery.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SceneQuery/AABB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SceneQuery/AABB.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SceneQuery/BoundsUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SceneQuery/BoundsUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SceneQuery/BrushIntersection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SceneQuery/BrushIntersection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SceneQuery/SceneQueryUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SceneQuery/SceneQueryUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/BrushSelection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/BrushSelection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/ControlMeshState.Selection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/ControlMeshState.Selection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/ControlMeshState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/ControlMeshState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/FilteredSelection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/FilteredSelection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/SelectBrushSurface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/SelectBrushSurface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/SelectionUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/SelectionUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/TransformSelection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/TransformSelection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings/CSGSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings/CSGSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings/ColorSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings/ColorSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings/KeyEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings/KeyEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings/Keys.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings/Keys.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SnappedPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/SnappedPoint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/TexGenState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/TexGenState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/TypeConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/TypeConstants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Utility/PrefabUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Utility/PrefabUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Utility/VisibilityUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/Utility/VisibilityUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/ISceneDragTool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/ISceneDragTool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/SceneDragTool.BrushDragOnSurface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/SceneDragTool.BrushDragOnSurface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/SceneDragTool.Materials.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/SceneDragTool.Materials.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/SceneDragTool.Meshes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/SceneDragTool.Meshes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/SceneDragToolManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/SceneDragToolManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows/CSGModelComponent.Inspector.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows/CSGModelComponent.Inspector.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows/CSGModelComponent.Inspector.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows/CSGModelComponent.Inspector.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows/ExportedModelComponent.Editor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows/ExportedModelComponent.Editor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows/GeneratedMeshesComponent.Editor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows/GeneratedMeshesComponent.Editor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModeManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModeManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModeSelection.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModeSelection.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModeSelection.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModeSelection.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModeToolWindow.Editor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModeToolWindow.Editor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModeToolWindow.SceneGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModeToolWindow.SceneGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Clip.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Clip.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Clip.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Clip.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Clip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Clip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Common.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Common.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Common.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Common.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Edit.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Edit.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Edit.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Edit.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Edit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Edit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Generate.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Generate.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Generate.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Generate.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Generate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Generate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Place.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Place.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Place.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Place.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Place.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Place.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Surface.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Surface.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Surface.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Surface.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Surface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Surface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/CylinderDefinition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/CylinderDefinition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Base.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Base.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Box.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Box.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Box.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Box.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Box.Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Box.Settings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Box.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Box.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Cylinder.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Cylinder.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Cylinder.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Cylinder.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Cylinder.Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Cylinder.Settings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Cylinder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Cylinder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.ExtrudedBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.ExtrudedBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.FreeDraw.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.FreeDraw.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.FreeDraw.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.FreeDraw.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.FreeDraw.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.FreeDraw.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.LinearStairs.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.LinearStairs.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.LinearStairs.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.LinearStairs.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.LinearStairs.Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.LinearStairs.Settings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.LinearStairs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.LinearStairs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Sphere.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Sphere.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Sphere.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Sphere.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Sphere.Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Sphere.Settings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Sphere.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.Sphere.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.Settings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/IGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/IGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/IShapeSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/IShapeSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Outline2D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Outline2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/IEditMode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/IEditMode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditorWindow.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditorWindow/Debug.HierarchyWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditorWindow/Debug.HierarchyWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/HierarchyWindowItemGUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/HierarchyWindowItemGUI/HierarchyWindowItemGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/HierarchyWindowItemGUI/HierarchyWindowItemGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/PreferenceWindows.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/PreferenceWindows/CSGKeys.PreferenceWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/PreferenceWindows/CSGKeys.PreferenceWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/PreferenceWindows/CSGOptions.PreferenceWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/PreferenceWindows/CSGOptions.PreferenceWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/PropertyDrawers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/PropertyDrawers/EnumAsFlags.PropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/PropertyDrawers/EnumAsFlags.PropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewBottomBarGUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewBottomBarGUI/SceneViewBottomBar.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewBottomBarGUI/SceneViewBottomBar.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewBottomBarGUI/SceneViewBottomBar.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewBottomBarGUI/SceneViewBottomBar.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewBottomBarGUI/SurfaceVisibilityPopup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewBottomBarGUI/SurfaceVisibilityPopup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewInfoGUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewInfoGUI/SceneViewInfo.GUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewInfoGUI/SceneViewInfo.GUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewInfoGUI/SceneViewInfo.GUIContents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewInfoGUI/SceneViewInfo.GUIContents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/CSG_EditorGUIUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/CSG_EditorGUIUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/CSG_GUIStyleUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/CSG_GUIStyleUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/CSG_HandleUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/CSG_HandleUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/CameraUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/CameraUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/Tooltip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/Tooltip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/TooltipContentState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/TooltipContentState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/TooltipUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/TooltipUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Grid.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Grid/CSGGrid.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Grid/CSGGrid.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Grid/GridUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Grid/GridUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGBounds.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGBounds.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGDisc.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGDisc.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGFreeMove.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGFreeMove.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGFreeRotate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGFreeRotate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGHandles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGHandles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGScaleSlider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGScaleSlider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGSlider1D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGSlider1D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGSlider2D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGSlider2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/BrushOutlineManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/BrushOutlineManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/BrushOutlineRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/BrushOutlineRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/CSGRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/CSGRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/LineMeshRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/LineMeshRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/PaintUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/PaintUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/PointMeshRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/PointMeshRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/PolygonMeshRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/PolygonMeshRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/RotationCircle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/RotationCircle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/SceneToolRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/SceneToolRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Utility/CursorUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Utility/CursorUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Units.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Units.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/Editor/ExporterMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/Editor/ExporterMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/FBXExporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/FBXExporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/FBXMeshToString.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/FBXMeshToString.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/FBXModelPostProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/FBXModelPostProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/FBXUnityMaterialGetter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/FBXUnityMaterialGetter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/FBXUnityMeshGetter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/FBXUnityMeshGetter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/license.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/readme.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/Default.physicMaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/Default.physicMaterial.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/Floor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/Floor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/HDRP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/HDRP/Lit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/HDRP/Lit/Floor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/HDRP/Lit/Floor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/HDRP/Lit/Metal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/HDRP/Lit/Metal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/HDRP/Lit/Wall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/HDRP/Lit/Wall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/HDRP/Lit/Window.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/HDRP/Lit/Window.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/Wall.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/Wall.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/Window.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Materials/Window.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Attributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Attributes/EnumAsFlagsAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Attributes/EnumAsFlagsAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/CSGModelExported.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/CSGModelExported.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/GeneratedMeshInstance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/GeneratedMeshInstance.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/GeneratedMeshes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/GeneratedMeshes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/InternalFlags.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/InternalFlags.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/Legacy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/Legacy/LegacyGeneratedMeshContainer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/Legacy/LegacyGeneratedMeshContainer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/Shape.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/Shape/MathConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Components/Shape/MathConstants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Managers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Managers/CSGSceneManagerInterface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Managers/CSGSceneManagerInterface.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Managers/CSGSceneManagerRedirector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Managers/CSGSceneManagerRedirector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Utility/GameObjectExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Utility/GameObjectExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Utility/MeshUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Scripts/Utility/MeshUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Textures/Floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Textures/Floor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Textures/Wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Textures/Wall.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Textures/Window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Textures/Window.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Textures/roughess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/RealtimeCSG/Runtime/Textures/roughess.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansBridgeLink.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansBridgeLink.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansDecalTools.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansDecalTools.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansImageUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansImageUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansImporterWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansImporterWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansMeshUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansMeshUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansPostProcess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansPostProcess.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansTerrainTools.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansTerrainTools.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/BridgeImporter/MegascansUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Fonts/SourceSansPro-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Fonts/SourceSansPro-Black.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Fonts/SourceSansPro-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Fonts/SourceSansPro-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/B.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Background.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/CheckBoxHover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/CheckBoxHover.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/CheckBoxOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/CheckBoxOff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/CheckBoxOn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/CheckBoxOn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Field_Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Field_Background.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Help.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/M.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Popup_Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Popup_Arrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Popup_Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Popup_Background.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Text_Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Quixel/Scripts/Images/Text_Background.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Music.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Music/cocktails_in_space.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Music/cocktails_in_space.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Music/end_of_summer.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Music/end_of_summer.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Music/love_theme.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Music/love_theme.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/achieved with watermonke engine.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/achieved with watermonke engine.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/health.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/health/suitcharge1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/health/suitcharge1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/health/suitchargeno1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/health/suitchargeno1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/health/suitchargeok1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/health/suitchargeok1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/player/administering_medical.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/player/administering_medical.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/player/morphine_shot.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/player/morphine_shot.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/smallmedkit1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/smallmedkit1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Box Volume Profile 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Box Volume Profile 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/NavMesh.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Sky and Fog Settings Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Sky and Fog Settings Profile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIBuilder.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIBuilder/HUD.uxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UIBuilder/HUD.uxml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UnityPackages.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UnityPackages/JsonNet.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UnityPackages/JsonNet/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UnityPackages/JsonNet/Newtonsoft.Json.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UnityPackages/JsonNetSample.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UnityPackages/JsonNetSample/JsonNetSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UnityPackages/JsonNetSample/JsonNetSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ZombieTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ZombieTest.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.plsdunkill/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HealthPack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HealthPack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/health pickup.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/health pickup.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/health pickup.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/health pickup.blend1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/cocktails_in_space.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/cocktails_in_space.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/end_of_summer.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/end_of_summer.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/love_theme.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/love_theme.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HealthStation.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HealthStation.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Material Palette.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Material Palette.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Global Volume Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/LightingData.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-0_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_dir.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_light.exr.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-10_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-1_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-2_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-3_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-4_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-5_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-6_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-7_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-8_comp_shadowmask.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_dir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/Lightmap-9_comp_shadowmask.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayerMovement_Shooting/ReflectionProbe-0.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealingStation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealingStation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IInteractableEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IInteractableEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/MoveData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/MoveData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Libraries.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Libraries/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Libraries/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Libraries/SketchfabPlugin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Libraries/SketchfabPlugin.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Bold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Light.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Semibold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/SketchfabWhite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/SketchfabWhite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Black.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Bold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Light.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Semibold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Thin.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/defaultAvatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/defaultAvatar.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/defaultModel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/defaultModel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/planBiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/planBiz.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/planEnt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/planEnt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/planPlus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/planPlus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/planPrem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/planPrem.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/planPro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Resources/planPro.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFBumpToNormal.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFBumpToNormal.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFColorSpace.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFColorSpace.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFFlipTexture.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFFlipTexture.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFPackOccMetalRough.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFPackOccMetalRough.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/AssetBrowser.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabModelWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabModelWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/Resizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/Resizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabApi.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabApi.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabExporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabExporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabImporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabImporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabImporterWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabImporterWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabLogger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabLogger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabPlugin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabPlugin.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sketchfab For Unity/Scripts/SketchfabUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/achieved with watermonke engine.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/achieved with watermonke engine.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Example player prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Example player prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfPhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfPhysics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX/Snow.vfx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX/Snow.vfx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +1010,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@5.0.1/Runtime/Core/ColliderBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/27C4FEF4-1CD0-46CB-8B0F-ECA8B8BDE131/88/0bd01ce8/0200005Epdb.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealingStation.cs" root0="FORCE_HIGHLIGHTING" />
@@ -144,11 +1021,9 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.yasirkula.simpleinput@2cf20317b1/Plugins/SimpleInput/Scripts/SimpleInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/MoveData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://H:/robella/plsdunkill/Assets/Scenes/PlayerMovement_Shooting.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HealthPack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://H:/robella/plsdunkill/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://H:/robella/plsdunkill/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ZombieTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -163,15 +1038,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/ISingleActionReceiver.cs" />
         <option value="$PROJECT_DIR$/../plsdunkill_clone_0/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/PlayerAiming.cs" />
-        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" />
         <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/MoveData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NetworkedButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IInteractableEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FPS_Movement_Rigidbody-master/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealingStation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
+        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfPhysics.cs" />
+        <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfController.cs" />
         <option value="$PROJECT_DIR$/Assets/SourcePlayer/UnitySourceMovement/Modified fragsurf/Movement/SurfCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthPack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealingStation.cs" />
+        <option value="$PROJECT_DIR$/Assets/ZombieTest.cs" />
+        <option value="$PROJECT_DIR$/Packages/manifest.json" />
       </list>
     </option>
   </component>
@@ -197,6 +1075,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -253,7 +1132,11 @@
       <workItem from="1616176790449" duration="36531000" />
       <workItem from="1616363679020" duration="1028000" />
       <workItem from="1616608951263" duration="4834000" />
-      <workItem from="1616895604443" duration="32203000" />
+      <workItem from="1616895604443" duration="34006000" />
+      <workItem from="1617996907359" duration="3564000" />
+      <workItem from="1618251665904" duration="7935000" />
+      <workItem from="1618528058436" duration="12180000" />
+      <workItem from="1619213693042" duration="7717000" />
     </task>
     <task id="LOCAL-00001" summary="SOURCE MOVEMENT, WOOOO">
       <created>1613860312006</created>
@@ -290,7 +1173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616609038821</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HealthPack, serverside using and Healing station">
+      <created>1617924019720</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617924019721</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +1208,8 @@
     <MESSAGE value="idk bruh added fall damage, life stuff and shit" />
     <MESSAGE value="uwu" />
     <MESSAGE value="Server-authoritative!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server-authoritative!" />
+    <MESSAGE value="HealthPack, serverside using and Healing station" />
+    <option name="LAST_COMMIT_MESSAGE" value="HealthPack, serverside using and Healing station" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="196" key="#Plugins" timestamp="1613782401387">
@@ -335,11 +1226,11 @@
     <state x="484" y="63" key="SettingsEditor/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1617236620284" />
     <state x="484" y="93" width="998" height="755" key="SettingsEditor/0.30.2560.1050/2560.-84.1280.1024@0.30.2560.1050" timestamp="1614293967742" />
     <state x="484" y="102" key="SettingsEditor/0.40.2560.1040/2560.-84.1280.1024@0.40.2560.1040" timestamp="1614388320750" />
-    <state x="464" y="251" key="Vcs.Push.Dialog.v2" timestamp="1616609051506">
+    <state x="464" y="251" key="Vcs.Push.Dialog.v2" timestamp="1617924027893">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="2792" y="161" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.-84.1280.1024@2560.-84.1280.1024" timestamp="1614735865394" />
-    <state x="464" y="251" key="Vcs.Push.Dialog.v2/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1616609051506" />
+    <state x="464" y="251" key="Vcs.Push.Dialog.v2/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1617924027893" />
     <state x="2792" y="161" key="Vcs.Push.Dialog.v2/0.30.2560.1050/2560.-84.1280.1024@2560.-84.1280.1024" timestamp="1613933366520" />
     <state x="3054" y="141" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1613933496148">
       <screen x="2560" y="-84" width="1280" height="1024" />
@@ -353,15 +1244,15 @@
       <screen x="2560" y="-84" width="1280" height="1024" />
     </state>
     <state x="2884" y="299" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1040/2560.-84.1280.1024@2560.-84.1280.1024" timestamp="1614735858080" />
-    <state x="870" y="265" key="run.anything.popup" timestamp="1617239645240">
+    <state x="870" y="265" key="run.anything.popup" timestamp="1618604031451">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="870" y="265" key="run.anything.popup/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1617239645240" />
-    <state x="944" y="228" width="1344" height="679" key="search.everywhere.popup" timestamp="1616293646873">
+    <state x="870" y="265" key="run.anything.popup/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1618604031451" />
+    <state x="944" y="228" width="1344" height="679" key="search.everywhere.popup" timestamp="1619265307059">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="3032" y="138" width="672" height="662" key="search.everywhere.popup/0.0.2560.1040/2560.-84.1280.1024@2560.-84.1280.1024" timestamp="1614735861748" />
-    <state x="944" y="228" width="1344" height="679" key="search.everywhere.popup/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1616293646873" />
+    <state x="944" y="228" width="1344" height="679" key="search.everywhere.popup/0.0.2560.1050/2560.-84.1280.994@0.0.2560.1050" timestamp="1619265307059" />
     <state x="943" y="257" width="672" height="678" key="search.everywhere.popup/0.30.2560.1050/2560.-84.1280.1024@0.30.2560.1050" timestamp="1613782367310" />
     <state x="943" y="265" width="672" height="672" key="search.everywhere.popup/0.40.2560.1040/2560.-84.1280.1024@0.40.2560.1040" timestamp="1614379394102" />
   </component>
