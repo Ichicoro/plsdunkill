@@ -729,12 +729,12 @@
           <e p="DisableOnGameStart.cs" t="Include" />
           <e p="Elevator.cs" t="Include" />
           <e p="FPS_Movement_Rigidbody-master" t="Include">
-            <e p="GrapplingGun.cs" t="Include" />
             <e p="MoveCamera.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
-            <e p="RotateGun.cs" t="Include" />
           </e>
           <e p="FPSCounter.cs" t="Include" />
+          <e p="GrapplingGun.cs" t="Include" />
+          <e p="GrapplingRope.cs" t="Include" />
           <e p="HealingStation.cs" t="Include" />
           <e p="HealthAmount.cs" t="Include" />
           <e p="IInteractableEntity.cs" t="Include" />
@@ -749,6 +749,7 @@
           <e p="PlayerFlashlight.cs" t="Include" />
           <e p="SetTargetFPS.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
+          <e p="Spring.cs" t="Include" />
           <e p="TestButton.cs" t="Include" />
           <e p="TouchpadWithButton.cs" t="Include" />
           <e p="UpdateCrosshairPosition.cs" t="Include" />
